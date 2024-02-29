@@ -1,0 +1,1874 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.3f1 (21747dafc6ee) revision 2192509'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 8023 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+A:\UnityEditorFolder\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+A:/UnityProjects/SlotProjects/SlotProject-1/SlotProject-1
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49774
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: A:/UnityProjects/SlotProjects/SlotProject-1/SlotProject-1
+A:/UnityProjects/SlotProjects/SlotProject-1/SlotProject-1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [2724] Host "[IP] 25.58.39.68 [Port] 0 [Flags] 2 [Guid] 2968469680 [EditorId] 2968469680 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [2724] Host "[IP] 25.58.39.68 [Port] 0 [Flags] 2 [Guid] 2968469680 [EditorId] 2968469680 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.3f1 (21747dafc6ee)
+[Subsystems] Discovering subsystems at path A:/UnityEditorFolder/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path A:/UnityProjects/SlotProjects/SlotProject-1/SlotProject-1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'A:/UnityEditorFolder/Editor/Data/Managed'
+Mono path[1] = 'A:/UnityEditorFolder/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'A:/UnityEditorFolder/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56552
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: A:/UnityEditorFolder/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: A:/UnityEditorFolder/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: A:/UnityEditorFolder/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.005632 seconds.
+- Loaded All Assemblies, in  0.597 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.500 seconds
+Domain Reload Profiling: 1097ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (267ms)
+		LoadAssemblies (176ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (263ms)
+			TypeCache.Refresh (261ms)
+				TypeCache.ScanAssembly (241ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (422ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (135ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (211ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.170 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.839 seconds
+Domain Reload Profiling: 2008ms
+	BeginReloadAssembly (416ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (662ms)
+		LoadAssemblies (517ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (292ms)
+			TypeCache.Refresh (219ms)
+				TypeCache.ScanAssembly (197ms)
+			BuildScriptInfoCaches (51ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (839ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (554ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (393ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 186 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5822 unused Assets / (5.1 MB). Loaded Objects now: 6515.
+Memory consumption went from 186.5 MB to 181.4 MB.
+Total: 15.933300 ms (FindLiveObjects: 5.086000 ms CreateObjectMapping: 1.133300 ms MarkObjects: 5.921200 ms  DeleteObjects: 3.790500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1182.753226 seconds.
+  path: Assets/Prefabs/Watermellon.prefab
+  artifactKey: Guid(2585c2902b0e4c34490e3998779c79bf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Watermellon.prefab using Guid(2585c2902b0e4c34490e3998779c79bf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9dacc9c033996ae5b7092953cd3eebb') in 0.220175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8aa905dfba746bd6729215e87a765c77') in 0.0109937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Sprites/Free 2D Cartoon Parallax Background/3_Graveyard/Layer_4.png
+  artifactKey: Guid(0ceb3b7f07f8bff499799cb7cfa69fcd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free 2D Cartoon Parallax Background/3_Graveyard/Layer_4.png using Guid(0ceb3b7f07f8bff499799cb7cfa69fcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2df56db6a7e092ceca9801f08d38142') in 0.0566472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c81d9655fa02b48e65b153cf85b86752') in 0.0067197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c36aa4699105b04df9fc49fee0d1419') in 0.0059352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '248ee93d6ac8f39878eef532d4d4be6a') in 0.0494187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/ingame_grid_bg_01.png
+  artifactKey: Guid(12ef16a1d684edb41885075b813d8122) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/ingame_grid_bg_01.png using Guid(12ef16a1d684edb41885075b813d8122) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5aeab39c660906111c7676e58264b1a2') in 0.0149939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b886e88e6b58b7cec40048208292d25') in 0.041542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Scripts/DataControl.cs
+  artifactKey: Guid(ccbf1e017bc46d34f931d832dd0be6f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/DataControl.cs using Guid(ccbf1e017bc46d34f931d832dd0be6f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52e482dd54dddaead2a79d1d1af64a9b') in 0.0034884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Sprites/Free 2D Cartoon Parallax Background/!_Moutain/Layer_3.png
+  artifactKey: Guid(072fb9c03f98b8541804c8632eda3b74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free 2D Cartoon Parallax Background/!_Moutain/Layer_3.png using Guid(072fb9c03f98b8541804c8632eda3b74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1617147005c4aedd7fab91db60c5b4bf') in 0.0236928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Sprites/2D Casual UI/readme.rtf
+  artifactKey: Guid(d3edae2e2c75b49ab9c5ee85393f2486) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/2D Casual UI/readme.rtf using Guid(d3edae2e2c75b49ab9c5ee85393f2486) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f22bb9740cb9a45634484fd077db7033') in 0.0069328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Sprites/FruitFace_v1/animated_FruitFace.unity
+  artifactKey: Guid(3be3c20f686666949a154d316c5ddff4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/animated_FruitFace.unity using Guid(3be3c20f686666949a154d316c5ddff4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3afa388b6f1b4e94702e4c6385f4d5c2') in 0.0172512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f2784565b23bb0d233e99dbca70b984e') in 0.0103767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51b3164ab1314a12eb371e24d099540e') in 0.0097952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Orange_1.prefab
+  artifactKey: Guid(97f6fcc3640eaaf48b82363dd58e2858) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Orange_1.prefab using Guid(97f6fcc3640eaaf48b82363dd58e2858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1706a36c9f2e8e110e1c456f2408bcf7') in 0.0282257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Green_1.controller
+  artifactKey: Guid(5bc9e8a49d608014e9c27c8f03f02912) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Green_1.controller using Guid(5bc9e8a49d608014e9c27c8f03f02912) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7780d85c6f0096d969a4e759f368cc4') in 0.0086786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/blue_fruit_animtest_5.anim
+  artifactKey: Guid(9b734af78cc9e1c4c94fa8ccca3b89e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/blue_fruit_animtest_5.anim using Guid(9b734af78cc9e1c4c94fa8ccca3b89e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f26c565a20f3ac00eed8040390195d1') in 0.0119585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0af9ae38e84039969f70d513b3742457') in 0.0089586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Prefabs/Crystal.prefab
+  artifactKey: Guid(06e362f3f6cdd2b4d8048118aafeeebe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Crystal.prefab using Guid(06e362f3f6cdd2b4d8048118aafeeebe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '71edd2f95e94b63a34bc183eccc06984') in 0.0112677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Free 2D Cartoon Parallax Background/2_Desert/Layer_0.png
+  artifactKey: Guid(c923db515dd60ec4e9cd1f350be245a9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free 2D Cartoon Parallax Background/2_Desert/Layer_0.png using Guid(c923db515dd60ec4e9cd1f350be245a9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eef1136c1864bfb9348a039806aaab75') in 0.0209444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Red_2.controller
+  artifactKey: Guid(5b988435c07fb0c4b820c44bfcbfaa59) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Red_2.controller using Guid(5b988435c07fb0c4b820c44bfcbfaa59) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f182c75edf45930380439af1e4bbc0a5') in 0.0063601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7680db4525e0bd7ad7dc5631a4d3f2af') in 0.0120246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '299d0552440511d23f255f21728cb23d') in 0.0062231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000883 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66b426e271422d111b441a477b88b1d4') in 0.0045063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Sprites/Free 2D Cartoon Parallax Background/Demo/Scenes/Demo_Scene.unity
+  artifactKey: Guid(8fb833954f68e2640842680d0cc08b4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free 2D Cartoon Parallax Background/Demo/Scenes/Demo_Scene.unity using Guid(8fb833954f68e2640842680d0cc08b4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8afedd8e128043a194375d851e694c8e') in 0.0151929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3a2c7e7f5754b744e7a14c1802424af') in 0.0104395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Sprites/Free 2D Cartoon Parallax Background/!_Moutain/Layer_4.png
+  artifactKey: Guid(17729fe1353b2f247bf96445ab7798b1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free 2D Cartoon Parallax Background/!_Moutain/Layer_4.png using Guid(17729fe1353b2f247bf96445ab7798b1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba95360019cdd5fd8319b5db4d10f5c4') in 0.0189278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Free 2D Cartoon Parallax Background/FullBG/4_Snow.png
+  artifactKey: Guid(429517ea1b1287a47952cd5cd8261d74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free 2D Cartoon Parallax Background/FullBG/4_Snow.png using Guid(429517ea1b1287a47952cd5cd8261d74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf49b01218e7a375b1224084c40802ce') in 0.0294114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Prefabs/Orange.prefab
+  artifactKey: Guid(4dc108e2e5db99f4da19fe4db5a23cc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Prefabs/Orange.prefab using Guid(4dc108e2e5db99f4da19fe4db5a23cc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2a49700a4698ef6617dc352fb832c94') in 0.006734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2761f37d80f372ddea9ef7c725d93e59') in 0.0033008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Free UI build package/Script/Togglescript.cs
+  artifactKey: Guid(16ea6353be13e4709943361044cbd0f7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Script/Togglescript.cs using Guid(16ea6353be13e4709943361044cbd0f7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a84a31306381ffbd5fdda345ef387b5') in 0.0027488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f5ca5bfca0ec549fb489d34072d2d75') in 0.0033365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/blue_fruit_anim_test.controller
+  artifactKey: Guid(a29016bff16af1747ae557a4dcfe6536) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/blue_fruit_anim_test.controller using Guid(a29016bff16af1747ae557a4dcfe6536) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d83ce2f397892737a5a333535360107') in 0.0080708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eeb0618ec52b3b510416ed26b023fd46') in 0.0080679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20daa1794ba4a8fc5d45237245017ca3') in 0.0077194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Free 2D Cartoon Parallax Background/4_Snow/Layer_4.png
+  artifactKey: Guid(f0328e3028fda6341a7f32ca37ccd221) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free 2D Cartoon Parallax Background/4_Snow/Layer_4.png using Guid(f0328e3028fda6341a7f32ca37ccd221) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bfca73f5f55d6b8d7131a5615077ab1') in 0.0287275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Red_1.prefab
+  artifactKey: Guid(858a256717922b94c8c31524c3075d55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Red_1.prefab using Guid(858a256717922b94c8c31524c3075d55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cff00ce5c3e35331d778bf9320b949c') in 0.0159162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_line_bg_green.png
+  artifactKey: Guid(e66e351af0dbfc042ac7de9fe8788cba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_line_bg_green.png using Guid(e66e351af0dbfc042ac7de9fe8788cba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bb674790b7f7db9d70f7bd7d5a0a3a3') in 0.0156681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/orange_1_fruit_animtest.anim
+  artifactKey: Guid(e04b400d26c65744ba76cd854b0c835c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/orange_1_fruit_animtest.anim using Guid(e04b400d26c65744ba76cd854b0c835c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '54d4d94e14b8f9b081f37885640747a6') in 0.0123738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_line_bg_blue.png
+  artifactKey: Guid(b29a4c56835ab764886b293bf1a123d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_line_bg_blue.png using Guid(b29a4c56835ab764886b293bf1a123d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '07aae7abb171d7e7eff3d4650799d86e') in 0.0158281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/icon_fruits.png
+  artifactKey: Guid(75e898e15e7235746a8050ebabe856c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/icon_fruits.png using Guid(75e898e15e7235746a8050ebabe856c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8cebdac6e8834e9d4c1acea31d99672a') in 0.0130084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/UI_overlay_ice/UI_overlay_ice_explode.anim
+  artifactKey: Guid(4477d95660b9cbd42b024af542c47553) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/UI_overlay_ice/UI_overlay_ice_explode.anim using Guid(4477d95660b9cbd42b024af542c47553) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1831014fdc09df79a0e4643cf48a707c') in 0.0143373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/green_1_fruit_animtest.anim
+  artifactKey: Guid(c5ff535a16f0aa841a1ec2aab1696ee7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/green_1_fruit_animtest.anim using Guid(c5ff535a16f0aa841a1ec2aab1696ee7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0de9d2d670b0fb36de20e4731c1aa7d1') in 0.0095772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/UI_FX/UI_FX_ray_line.anim
+  artifactKey: Guid(c8290289e75bee74597f648794adc5ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/UI_FX/UI_FX_ray_line.anim using Guid(c8290289e75bee74597f648794adc5ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f28e73dce7e4d38a81b9333338fe7461') in 0.0098214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/sprite_eye_atlas_green_02.psd
+  artifactKey: Guid(bb1140fb33a31cd4a8605d4dd285ddc5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/sprite_eye_atlas_green_02.psd using Guid(bb1140fb33a31cd4a8605d4dd285ddc5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7070f7f50d23c9a25719d1da0f2528b') in 0.040983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_line_bg_violet.png
+  artifactKey: Guid(e93b532b2e34cba449403c9e86d9b7e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_line_bg_violet.png using Guid(e93b532b2e34cba449403c9e86d9b7e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'caebb3549df120465760fbc2a47b1615') in 0.023972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_circle_bg_white.png
+  artifactKey: Guid(017e9a6246e37d245858350f05780c7f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_circle_bg_white.png using Guid(017e9a6246e37d245858350f05780c7f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03afd27a73816f688617691c4d040599') in 0.0187868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_circle_bg_green.png
+  artifactKey: Guid(f2475b867d92200488d50e02312e3cae) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_circle_bg_green.png using Guid(f2475b867d92200488d50e02312e3cae) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '89ad92a1054390fe543e9f32d1255939') in 0.0620835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_circle_line_white.png
+  artifactKey: Guid(7b1146a4d7833554bac17e90cc8c8741) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_circle_line_white.png using Guid(7b1146a4d7833554bac17e90cc8c8741) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b966e6cf72a7f8e39845510af39063b') in 0.0267638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/yellow_2_fruit_animtest.anim
+  artifactKey: Guid(b343b529222a32b40a0486deae11173b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/yellow_2_fruit_animtest.anim using Guid(b343b529222a32b40a0486deae11173b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e4690eefc7fd14cc22315059a71f0a3b') in 0.0158662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/UI_FX/FX_Ray_line.controller
+  artifactKey: Guid(7d3bcd31ed6703349b4073fa12258eb8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/UI_FX/FX_Ray_line.controller using Guid(7d3bcd31ed6703349b4073fa12258eb8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5d3e2a0747d5672315b6d54e47106bb') in 0.0138744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/sprite_eye_atlas_yelllow_02.psd
+  artifactKey: Guid(db81e4b67f1c7004082e7ab26436a393) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/sprite_eye_atlas_yelllow_02.psd using Guid(db81e4b67f1c7004082e7ab26436a393) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1ec398e09061315a05db87153070922') in 0.0578041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/UI_FX/FX_Splatters_burst_blue.controller
+  artifactKey: Guid(6498e393afddfa34088a9e7e08b0597a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/UI_FX/FX_Splatters_burst_blue.controller using Guid(6498e393afddfa34088a9e7e08b0597a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba9c6be11bbcfbb540922ff7fba0a51d') in 0.0085739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_circle_bg_violet.png
+  artifactKey: Guid(11787ae65ef2ced4abf4a4763da98923) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_circle_bg_violet.png using Guid(11787ae65ef2ced4abf4a4763da98923) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '478850a5082d45a24c10c45855cb8f6f') in 0.0223465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/UI_FX/UI_FX_splatter_burst.anim
+  artifactKey: Guid(63f2ab27678e8f34f9234e8914f662bc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/UI_FX/UI_FX_splatter_burst.anim using Guid(63f2ab27678e8f34f9234e8914f662bc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1340c09b2783dd97626c3581b4308ff9') in 0.0127506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Orange_2.prefab
+  artifactKey: Guid(8f369d2b14e20f0468de46e59b5b587b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Orange_2.prefab using Guid(8f369d2b14e20f0468de46e59b5b587b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '363d42dd798c8446c0f3b09a1e32f859') in 0.0236037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/sprite_eye_atlas_red_01.psd
+  artifactKey: Guid(87ca0098775ae6e4ca0a8b28fba4a892) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/sprite_eye_atlas_red_01.psd using Guid(87ca0098775ae6e4ca0a8b28fba4a892) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '06bfeb19e8aafeb198184cebf9d625e1') in 0.0582045 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Bars/Bar_2.prefab
+  artifactKey: Guid(05db22e73067f47298102cd2a70e73b3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Bars/Bar_2.prefab using Guid(05db22e73067f47298102cd2a70e73b3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bec21eafb087abcfba1e4435718be851') in 0.0117919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/sprite_mouth_atlas_02.psd
+  artifactKey: Guid(2498b83b05df0bb47a43231ae453ffec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/sprite_mouth_atlas_02.psd using Guid(2498b83b05df0bb47a43231ae453ffec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7119e7d208cfe5ca1bd1f16195dc51bc') in 0.0478536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Bars/Bar_6.prefab
+  artifactKey: Guid(bbcb66920fbd944c18ce1bc45e58acea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Bars/Bar_6.prefab using Guid(bbcb66920fbd944c18ce1bc45e58acea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '346a911eb02565b70d1177de14326ba4') in 0.0106672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Miscellaneous/Gem_1.prefab
+  artifactKey: Guid(b7d4288a6be97486fa077caf36d7e24a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Miscellaneous/Gem_1.prefab using Guid(b7d4288a6be97486fa077caf36d7e24a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da263907bb05c044add146b2b28adab6') in 0.010423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/sprite_mouth_atlas_01.psd
+  artifactKey: Guid(32f20cb9fedb33049b2c859823c2876f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/sprite_mouth_atlas_01.psd using Guid(32f20cb9fedb33049b2c859823c2876f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cecbab409347e7bdff433684570ed409') in 0.0498075 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Bars/Bar_10.prefab
+  artifactKey: Guid(b944233295a5448e684cfda787e2faba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Bars/Bar_10.prefab using Guid(b944233295a5448e684cfda787e2faba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6bc048c6e9e81423402462ce5f3d49c') in 0.0080405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Buttons/Button_3.prefab
+  artifactKey: Guid(693e43330460346d1a79c4874c16cbd2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Buttons/Button_3.prefab using Guid(693e43330460346d1a79c4874c16cbd2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8989ccf7ab37f948eb1c51f0eb80a4a') in 0.0103396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Miscellaneous/Frame_2.prefab
+  artifactKey: Guid(21c03fded03f94d46a8e962c9be8eb64) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Miscellaneous/Frame_2.prefab using Guid(21c03fded03f94d46a8e962c9be8eb64) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3d7a5b4e440c5be5a986d5fac8b4b3a') in 0.0084022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Bars/Bar_3.prefab
+  artifactKey: Guid(c50c512aa19fa40719a893c3e8d42022) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Bars/Bar_3.prefab using Guid(c50c512aa19fa40719a893c3e8d42022) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3f8ab05b539669b908a2db7dc922986') in 0.0055584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Miscellaneous/Gem_2.prefab
+  artifactKey: Guid(86f00dcf68d934d01b45177b5da333c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Miscellaneous/Gem_2.prefab using Guid(86f00dcf68d934d01b45177b5da333c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7603eebe2622a0e516f5ab20934bd90a') in 0.0107655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Sprites/Free UI build package/Demo/ExampelScene_1.unity
+  artifactKey: Guid(2548bd7aeca2047ec8b6d50f5d06f50a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Demo/ExampelScene_1.unity using Guid(2548bd7aeca2047ec8b6d50f5d06f50a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0999c7de9419e8730a038b05a4e84a41') in 0.0157161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Buttons/Button_5.prefab
+  artifactKey: Guid(aeb19108c318b4b778fd2f147e2d0b95) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Buttons/Button_5.prefab using Guid(aeb19108c318b4b778fd2f147e2d0b95) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09f31050cbe9ed04f09c7988195eb553') in 0.0068657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/Free 2D Cartoon Parallax Background/FullBG/2_Desert.png
+  artifactKey: Guid(9d1a3e0bc36dfc9468a738d92b6e92d4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free 2D Cartoon Parallax Background/FullBG/2_Desert.png using Guid(9d1a3e0bc36dfc9468a738d92b6e92d4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e64226555844c8dfbdef9f0a98b5848') in 0.0415121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/yellow_1_fruit_animtest.anim
+  artifactKey: Guid(c57e86d5431164145b182d9889a00d5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/yellow_1_fruit_animtest.anim using Guid(c57e86d5431164145b182d9889a00d5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '881dd75ae5a5fb74cc93b6201b1993d0') in 0.0105704 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_yellow_1.controller
+  artifactKey: Guid(440de2521aefa744fafdc7ab2f7d251e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_yellow_1.controller using Guid(440de2521aefa744fafdc7ab2f7d251e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ead3c00b1b2089aacfe50062556bb35b') in 0.006061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba65ed292cd56270a88297a7f7679971') in 0.0341962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Orange_1 1.prefab
+  artifactKey: Guid(0fa72a843191b2e4c924dfe0c98fd45e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Orange_1 1.prefab using Guid(0fa72a843191b2e4c924dfe0c98fd45e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79308f31783892e30d8063b5519ca330') in 0.0175794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_glow_burst_orange.png
+  artifactKey: Guid(73bf4f26825ea3a48a925e0403a5f9c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_glow_burst_orange.png using Guid(73bf4f26825ea3a48a925e0403a5f9c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aba23fdb42616d8c08c49aa01ca8156e') in 0.1128125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/Tiles/Controllers/fruit controller-0.controller
+  artifactKey: Guid(85b249d9c79ecff4aa8e78aa3c970e70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/Tiles/Controllers/fruit controller-0.controller using Guid(85b249d9c79ecff4aa8e78aa3c970e70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f08bf095af015597cc1b185f835a06eb') in 0.0113764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/Tiles/Clips/green_1_fruit_animtest 1.anim
+  artifactKey: Guid(ff0ded836db252f4090721105fa579a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/Tiles/Clips/green_1_fruit_animtest 1.anim using Guid(ff0ded836db252f4090721105fa579a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84e5f70f75cdc224ba2cfa53151efef2') in 0.012069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_ray_yellow.png
+  artifactKey: Guid(49ce6215bf0ac804b97ff7b1d4bd22cb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_ray_yellow.png using Guid(49ce6215bf0ac804b97ff7b1d4bd22cb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2a76e197e89362371a6901ba60c200f') in 0.0224904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/Tiles/Controllers/fruit controller-1.controller
+  artifactKey: Guid(6c4b4cc1cd05a9d4db4fe507a1296c91) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/Tiles/Controllers/fruit controller-1.controller using Guid(6c4b4cc1cd05a9d4db4fe507a1296c91) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '017ddf15e9f8827dc7f1da713273a8ad') in 0.0085957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/Tiles/Clips/yellow_1_fruit_animtest 1.anim
+  artifactKey: Guid(e7a3629575a8ca6439bb2829da8fd219) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/Tiles/Clips/yellow_1_fruit_animtest 1.anim using Guid(e7a3629575a8ca6439bb2829da8fd219) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9dc2875628a4db3219ed14cf60ec4c63') in 0.0108465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_ray_green.png
+  artifactKey: Guid(0fcedcf7dbb25e24a8fad73174e8ff96) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_ray_green.png using Guid(0fcedcf7dbb25e24a8fad73174e8ff96) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4aadd74634feb44cf724d76693baf971') in 0.0276942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_splatter_red.png
+  artifactKey: Guid(21afa7f13e43f574cb2ebc89cfe00ede) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_splatter_red.png using Guid(21afa7f13e43f574cb2ebc89cfe00ede) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'de9d767b937e61a79ad664953b23ad7a') in 0.0504737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_splatter_yellow.png
+  artifactKey: Guid(4596d547b7d727b448a6d3dbdfa05850) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_splatter_yellow.png using Guid(4596d547b7d727b448a6d3dbdfa05850) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1012abc876658e837d05547e178dc457') in 0.0725977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/Tiles/Clips/blue_fruit_animtest 1.anim
+  artifactKey: Guid(1fbd10ec785c30442b2df4aa2cf0e589) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/Tiles/Clips/blue_fruit_animtest 1.anim using Guid(1fbd10ec785c30442b2df4aa2cf0e589) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dccd5d9db5d2512fa1b7593340b38b5f') in 0.0120328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_splatter_green.png
+  artifactKey: Guid(5b020f46339665c42b8ec3967dab78a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_splatter_green.png using Guid(5b020f46339665c42b8ec3967dab78a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9d8f03a89f65cf304ed49c0e93b86ba9') in 0.0548159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_ray_red.png
+  artifactKey: Guid(80c80b3affccf204b8fd59a2b80dd22c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_ray_red.png using Guid(80c80b3affccf204b8fd59a2b80dd22c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47f1b19681d143e3aeb40db528744a86') in 0.018101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Sliders/Slider_1.prefab
+  artifactKey: Guid(8448d0c7b98ba48029866b3004f038b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Sliders/Slider_1.prefab using Guid(8448d0c7b98ba48029866b3004f038b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '21042ad0ba8cea688448cd693c54f844') in 0.0103508 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Miscellaneous/BackGround.prefab
+  artifactKey: Guid(15829edc33463431b8159c8b5b8c35f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Miscellaneous/BackGround.prefab using Guid(15829edc33463431b8159c8b5b8c35f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02c8e4050f82c1da36834d347bbb0c6e') in 0.0086833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_glow_burst_red.png
+  artifactKey: Guid(64de2d7a25b680646b40cb341b10d1be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_glow_burst_red.png using Guid(64de2d7a25b680646b40cb341b10d1be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74becf2298b4c8d48d1b754d268fc72e') in 0.1112565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Buttons/Button_1.prefab
+  artifactKey: Guid(5131754af739541a7a443bd0498d5498) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Buttons/Button_1.prefab using Guid(5131754af739541a7a443bd0498d5498) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bd73797c857360d89cf762d22ce8b79') in 0.0079441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Free 2D Cartoon Parallax Background/3_Graveyard/Layer_2.png
+  artifactKey: Guid(e9313620d8b44324ea02f98a3ee892be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free 2D Cartoon Parallax Background/3_Graveyard/Layer_2.png using Guid(e9313620d8b44324ea02f98a3ee892be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d0b76b61314af94b8e7e5197977d9d5') in 0.0284863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Blue_2.prefab
+  artifactKey: Guid(552227f7d7092a848bc3231f2a2a5a54) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Blue_2.prefab using Guid(552227f7d7092a848bc3231f2a2a5a54) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9973766ec9bdfe8c1ff6013bf6cfcbc3') in 0.0171333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Buttons/Button_6.prefab
+  artifactKey: Guid(b762002f1ac0943bfae641ee1d696f65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Buttons/Button_6.prefab using Guid(b762002f1ac0943bfae641ee1d696f65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c84b950aeebaa9e6a4c9638948f27dff') in 0.0120365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 39
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Icons/Icon_2.prefab
+  artifactKey: Guid(0f0f65e4964e948d8a086b5077532dca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Icons/Icon_2.prefab using Guid(0f0f65e4964e948d8a086b5077532dca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3898b6462d167b07e69bf4568cb38eac') in 0.0100283 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/Tiles/Controllers/fruit controller-4.controller
+  artifactKey: Guid(e41424652808828418229254bf341638) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/Tiles/Controllers/fruit controller-4.controller using Guid(e41424652808828418229254bf341638) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c999fa29738bb3a2b989b82038aa4be5') in 0.00656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Icons/Icon_1.prefab
+  artifactKey: Guid(ccd64f90b962e4a789be11ce73c18abe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Icons/Icon_1.prefab using Guid(ccd64f90b962e4a789be11ce73c18abe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5ce2ce5d8a63fb3900c41437a3516f5f') in 0.0076338 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_ray_orange.png
+  artifactKey: Guid(512339565772921468b4a6bf4e2ac16f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/Sprites FX/sprite_FX_ray_orange.png using Guid(512339565772921468b4a6bf4e2ac16f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2375c11e06ad1eeba00af59c6798e24') in 0.0237197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Icons/Icon_3.prefab
+  artifactKey: Guid(44e2c76c5947e4ef2a5ccce3807fe9e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Icons/Icon_3.prefab using Guid(44e2c76c5947e4ef2a5ccce3807fe9e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3096d6483f443428f81695eb412fb6ac') in 0.0081044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Free 2D Cartoon Parallax Background/2_Desert/Layer_1.png
+  artifactKey: Guid(442d8366ad5d42f46acfc9133b342c22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free 2D Cartoon Parallax Background/2_Desert/Layer_1.png using Guid(442d8366ad5d42f46acfc9133b342c22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1e9d8a22d6e5cdeff6238b2dd47091f6') in 0.0240884 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Orange_2.controller
+  artifactKey: Guid(164d816af839a5d48bae4cf5c8febd32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Orange_2.controller using Guid(164d816af839a5d48bae4cf5c8febd32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4baab0904ac56734f3790e803167a791') in 0.0091316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Sprites/Free UI build package/Prefabs/Gray/Miscellaneous/Rod3.prefab
+  artifactKey: Guid(cb2501e8890a6418d867d2c7159ffc5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free UI build package/Prefabs/Gray/Miscellaneous/Rod3.prefab using Guid(cb2501e8890a6418d867d2c7159ffc5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1951f13ab978e16089aa680404b63069') in 0.0111035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scripts/RollReward.cs
+  artifactKey: Guid(1b55018ad3fb0334f893977a81030886) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/RollReward.cs using Guid(1b55018ad3fb0334f893977a81030886) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '50e36933860163b4092a556d225d49e3') in 0.0055056 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+  artifactKey: Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b599beca3ae9644ce0d1d39349dd212') in 0.015674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/UniversalRenderPipelineGlobalSettings.asset using Guid(93b439a37f63240aca3dd4e01d978a9f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a082768523a8c82a50c523161e010e30') in 0.0209208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Tiles/sprite_eye_atlas_orange_02.psd
+  artifactKey: Guid(1cc9b4afe0190c0438150d896347d8f3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Tiles/sprite_eye_atlas_orange_02.psd using Guid(1cc9b4afe0190c0438150d896347d8f3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f1b96d8af740a735ef083564ca3db32') in 0.0446426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph
+  artifactKey: Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph using Guid(ca2ed216f98028c4dae6c5224a952b3c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d1f6ce9ffcfd82768c16a0a9b4e8f92') in 0.0430664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Sprites/Free 2D Cartoon Parallax Background/2_Desert/Layer_3.png
+  artifactKey: Guid(b5b8e73cc720ab446a25f00fc5ae7dc6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free 2D Cartoon Parallax Background/2_Desert/Layer_3.png using Guid(b5b8e73cc720ab446a25f00fc5ae7dc6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5190c929aa53df0715953ec12831b53') in 0.0229543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Free 2D Cartoon Parallax Background/FullBG/1_Mountain.png
+  artifactKey: Guid(fd00b29c3d9553d4c8e0ab3b572af409) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free 2D Cartoon Parallax Background/FullBG/1_Mountain.png using Guid(fd00b29c3d9553d4c8e0ab3b572af409) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9aeeabf5d3ddd806bc8305076481b178') in 0.029358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/ingame_grid_bg_01_b.png
+  artifactKey: Guid(58bc30570482d1e4f9faf4906c8d8d5a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/ingame_grid_bg_01_b.png using Guid(58bc30570482d1e4f9faf4906c8d8d5a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e15e7b2add0426e2f0fa46adbc6e4c96') in 0.0298295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/blue_2_fruit_animtest.anim
+  artifactKey: Guid(b7ff4d0707f686d4ca62bc29ad7ad0c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/blue_2_fruit_animtest.anim using Guid(b7ff4d0707f686d4ca62bc29ad7ad0c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c9b74a38c16c5a696b3cb52c97b3cc18') in 0.0128549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Blue_1.controller
+  artifactKey: Guid(64ebde7c4183072478ac120b349e9196) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Blue_1.controller using Guid(64ebde7c4183072478ac120b349e9196) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36c4e244474f1ddebd1e9028ff0b8a9a') in 0.0155049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_circle_bg_red.png
+  artifactKey: Guid(398ee0f95475148448c2931e923daa83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_circle_bg_red.png using Guid(398ee0f95475148448c2931e923daa83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ddba3389b96eb5716a584fba754031b') in 0.0207854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Red_1.controller
+  artifactKey: Guid(ee79d33cdc161234782eb3a82337d7b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Red_1.controller using Guid(ee79d33cdc161234782eb3a82337d7b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '15a4f00c7beb1266bcc6347206c104eb') in 0.0081831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_circle_bg_blue.png
+  artifactKey: Guid(f12f5a8356ce80b439d8a6ea5b41efcd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Textures/Selected Tiles/UI_ingame_selection_circle_bg_blue.png using Guid(f12f5a8356ce80b439d8a6ea5b41efcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9c36730d5d0cd4ee33b6d2aa980bfd4') in 0.0252905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Blue_2.controller
+  artifactKey: Guid(77b882fcf52e2064492ae16049f31b70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_Blue_2.controller using Guid(77b882fcf52e2064492ae16049f31b70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '23c2b4ba69aad888962d8c057eea0724') in 0.0067195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(3d4c13846a3e9bd4c8ccfbd0657ed847) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(3d4c13846a3e9bd4c8ccfbd0657ed847) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb4c9db9380b973d188fe2c29a1540f0') in 0.0050686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Scripts/ActivePanel.cs
+  artifactKey: Guid(f60ea1a77b11151468106dbf8cd728b9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/ActivePanel.cs using Guid(f60ea1a77b11151468106dbf8cd728b9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cb243194f725e28998302233b8ecb9c') in 0.0028823 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Scripts/IncreaseCoeficientCircle.cs
+  artifactKey: Guid(e84e790af3f6833448b9be902383345f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scripts/IncreaseCoeficientCircle.cs using Guid(e84e790af3f6833448b9be902383345f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c4f9b5a7f8990efafe1f515b21bad798') in 0.004877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52f3f2fc714f7d83a405024a942a190e') in 0.0053197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_yellow_2.controller
+  artifactKey: Guid(971bf437a360d364f9dfae6009e20ee9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/FruitFace_v1/Animation/fruit_animtest/Fruit_yellow_2.controller using Guid(971bf437a360d364f9dfae6009e20ee9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce6d8852c3d4dee4fe1451d0bbeaf490') in 0.0099458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c78242be66e98971ac763e7a615181c') in 0.0245751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Free 2D Cartoon Parallax Background/2_Desert/Layer_4.png
+  artifactKey: Guid(01c1e211013f19a479f0e2c12fea10a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Sprites/Free 2D Cartoon Parallax Background/2_Desert/Layer_4.png using Guid(01c1e211013f19a479f0e2c12fea10a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '691d2d6319365b7155f19c43cd6562ff') in 0.026515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter)Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3758fb6da636fa2f6acc55dad9ee900f') in 0.0330205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5812 unused Assets / (5.4 MB). Loaded Objects now: 6520.
+Memory consumption went from 157.0 MB to 151.6 MB.
+Total: 13.998800 ms (FindLiveObjects: 0.951900 ms CreateObjectMapping: 1.310100 ms MarkObjects: 8.034700 ms  DeleteObjects: 3.700800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.696 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.852 seconds
+Domain Reload Profiling: 2551ms
+	BeginReloadAssembly (355ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (111ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (1215ms)
+		LoadAssemblies (925ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (467ms)
+			TypeCache.Refresh (33ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (399ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (541ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (391ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.38 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5820 unused Assets / (3.2 MB). Loaded Objects now: 6522.
+Memory consumption went from 160.3 MB to 157.1 MB.
+Total: 16.428400 ms (FindLiveObjects: 3.657100 ms CreateObjectMapping: 1.891800 ms MarkObjects: 6.194300 ms  DeleteObjects: 4.679100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.106 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.094 seconds
+Domain Reload Profiling: 2202ms
+	BeginReloadAssembly (376ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (4ms)
+		CreateAndSetChildDomain (100ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (622ms)
+		LoadAssemblies (573ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (196ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1095ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (742ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (516ms)
+			ProcessInitializeOnLoadMethodAttributes (79ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5820 unused Assets / (6.0 MB). Loaded Objects now: 6522.
+Memory consumption went from 162.1 MB to 156.1 MB.
+Total: 16.753300 ms (FindLiveObjects: 0.926100 ms CreateObjectMapping: 1.571600 ms MarkObjects: 9.131700 ms  DeleteObjects: 5.121200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.548 seconds
+Refreshing native plugins compatible for Editor in 1.95 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.124 seconds
+Domain Reload Profiling: 2676ms
+	BeginReloadAssembly (264ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (1200ms)
+		LoadAssemblies (682ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (652ms)
+			TypeCache.Refresh (89ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (492ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1124ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (727ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 1.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5820 unused Assets / (5.4 MB). Loaded Objects now: 6522.
+Memory consumption went from 164.0 MB to 158.6 MB.
+Total: 15.150400 ms (FindLiveObjects: 0.961100 ms CreateObjectMapping: 1.338700 ms MarkObjects: 7.086300 ms  DeleteObjects: 5.762000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.046 seconds
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.027 seconds
+Domain Reload Profiling: 2075ms
+	BeginReloadAssembly (257ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (675ms)
+		LoadAssemblies (566ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (26ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (191ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1027ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (686ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (504ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5820 unused Assets / (5.4 MB). Loaded Objects now: 6522.
+Memory consumption went from 166.0 MB to 160.6 MB.
+Total: 17.248000 ms (FindLiveObjects: 1.276600 ms CreateObjectMapping: 1.843100 ms MarkObjects: 9.538300 ms  DeleteObjects: 4.588000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5812 unused Assets / (5.1 MB). Loaded Objects now: 6522.
+Memory consumption went from 166.1 MB to 161.0 MB.
+Total: 19.770000 ms (FindLiveObjects: 1.006300 ms CreateObjectMapping: 1.778900 ms MarkObjects: 10.870700 ms  DeleteObjects: 6.112500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.054 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.004 seconds
+Domain Reload Profiling: 2060ms
+	BeginReloadAssembly (319ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (577ms)
+		LoadAssemblies (531ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (24ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (199ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1004ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (701ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (490ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5820 unused Assets / (5.9 MB). Loaded Objects now: 6522.
+Memory consumption went from 167.8 MB to 161.9 MB.
+Total: 9.883100 ms (FindLiveObjects: 0.687900 ms CreateObjectMapping: 0.969900 ms MarkObjects: 4.178100 ms  DeleteObjects: 4.046400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5812 unused Assets / (5.5 MB). Loaded Objects now: 6522.
+Memory consumption went from 168.0 MB to 162.5 MB.
+Total: 12.212600 ms (FindLiveObjects: 1.198100 ms CreateObjectMapping: 2.039100 ms MarkObjects: 5.098500 ms  DeleteObjects: 3.875800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.415 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.760 seconds
+Domain Reload Profiling: 2180ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (58ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (1030ms)
+		LoadAssemblies (733ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (422ms)
+			TypeCache.Refresh (51ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (349ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (760ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (509ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5820 unused Assets / (5.7 MB). Loaded Objects now: 6522.
+Memory consumption went from 169.8 MB to 164.1 MB.
+Total: 8.961500 ms (FindLiveObjects: 0.673100 ms CreateObjectMapping: 0.903900 ms MarkObjects: 4.330800 ms  DeleteObjects: 3.051700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5812 unused Assets / (5.4 MB). Loaded Objects now: 6522.
+Memory consumption went from 170.0 MB to 164.6 MB.
+Total: 8.387600 ms (FindLiveObjects: 0.728100 ms CreateObjectMapping: 0.980500 ms MarkObjects: 3.641000 ms  DeleteObjects: 3.037300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5812 unused Assets / (5.9 MB). Loaded Objects now: 6522.
+Memory consumption went from 170.0 MB to 164.1 MB.
+Total: 11.492000 ms (FindLiveObjects: 1.280900 ms CreateObjectMapping: 1.327700 ms MarkObjects: 4.502500 ms  DeleteObjects: 4.379900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.370 seconds
+Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.723 seconds
+Domain Reload Profiling: 2106ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (981ms)
+		LoadAssemblies (666ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (473ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (6ms)
+			BuildScriptInfoCaches (302ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (723ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (480ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5820 unused Assets / (5.8 MB). Loaded Objects now: 6522.
+Memory consumption went from 171.7 MB to 166.0 MB.
+Total: 9.179700 ms (FindLiveObjects: 0.762200 ms CreateObjectMapping: 0.895700 ms MarkObjects: 4.373900 ms  DeleteObjects: 3.145800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.129 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.082 seconds
+Domain Reload Profiling: 2216ms
+	BeginReloadAssembly (292ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (738ms)
+		LoadAssemblies (625ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (210ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1083ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (772ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (575ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5820 unused Assets / (5.6 MB). Loaded Objects now: 6522.
+Memory consumption went from 173.7 MB to 168.1 MB.
+Total: 16.510200 ms (FindLiveObjects: 1.666800 ms CreateObjectMapping: 2.401900 ms MarkObjects: 6.307800 ms  DeleteObjects: 6.131200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
