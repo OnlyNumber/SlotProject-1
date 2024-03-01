@@ -46,7 +46,8 @@ public class IncreaseCoeficientCircle : MonoBehaviour
         {
             OnUpdate += GamePC;
         }
-
+        _coeficient = 1;
+        _circleText.text = "1";
         OnUpdate += Adding;
         stop = true;
     }
