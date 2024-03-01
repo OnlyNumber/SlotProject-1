@@ -82,4 +82,10 @@ public class PlayerData
 
     }
 
+
+    public PlayerData()
+    {
+        Coins = 200;
+    }
+
 }
