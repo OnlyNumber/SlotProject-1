@@ -32,14 +32,17 @@ public class RollReward : MonoBehaviour
 
     public IncreaseCoeficientCircle coeficientCircle;
 
+    [SerializeField]
+    private float _startXPostion;
+
     private void Start()
     {
-        float x = -250;
+        float x = -_startXPostion;
 
         foreach (var item in _rollControls)
         {
             item.Initialize(x);
-            x += 250;
+            x += _startXPostion;
         }
     }
 

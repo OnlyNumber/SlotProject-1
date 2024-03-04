@@ -1,0 +1,2571 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.3f1 (21747dafc6ee) revision 2192509'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 8023 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+A:\UnityEditorFolder\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+A:/UnityProjects/SlotProjects/SlotProject-1/SlotProject-1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64896
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: A:/UnityProjects/SlotProjects/SlotProject-1/SlotProject-1
+A:/UnityProjects/SlotProjects/SlotProject-1/SlotProject-1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8004] Host "[IP] 25.58.39.68 [Port] 0 [Flags] 2 [Guid] 1797195799 [EditorId] 1797195799 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8004] Host "[IP] 25.58.39.68 [Port] 0 [Flags] 2 [Guid] 1797195799 [EditorId] 1797195799 [Version] 1048832 [Id] WindowsEditor(7,User-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 1.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.3f1 (21747dafc6ee)
+[Subsystems] Discovering subsystems at path A:/UnityEditorFolder/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path A:/UnityProjects/SlotProjects/SlotProject-1/SlotProject-1/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3977 MB
+    Driver:   31.0.15.3742
+Initialize mono
+Mono path[0] = 'A:/UnityEditorFolder/Editor/Data/Managed'
+Mono path[1] = 'A:/UnityEditorFolder/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'A:/UnityEditorFolder/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: A:/UnityEditorFolder/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: A:/UnityEditorFolder/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: A:/UnityEditorFolder/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.002868 seconds.
+- Loaded All Assemblies, in  0.558 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.405 seconds
+Domain Reload Profiling: 963ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (224ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (201ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (406ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (341ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (106ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (165ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.067 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.807 seconds
+Domain Reload Profiling: 1873ms
+	BeginReloadAssembly (401ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (572ms)
+		LoadAssemblies (489ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (192ms)
+				TypeCache.ScanAssembly (174ms)
+			BuildScriptInfoCaches (35ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (807ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (525ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (368ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 186 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5820 unused Assets / (5.4 MB). Loaded Objects now: 6513.
+Memory consumption went from 186.7 MB to 181.3 MB.
+Total: 20.581900 ms (FindLiveObjects: 3.125000 ms CreateObjectMapping: 2.236200 ms MarkObjects: 9.178900 ms  DeleteObjects: 6.038700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1373.593872 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da3978aafafc671f46e21908c8846983') in 0.3783119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 20 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5812 unused Assets / (5.5 MB). Loaded Objects now: 6645.
+Memory consumption went from 156.8 MB to 151.3 MB.
+Total: 11.457300 ms (FindLiveObjects: 0.738200 ms CreateObjectMapping: 1.187600 ms MarkObjects: 6.332900 ms  DeleteObjects: 3.197400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 181.332774 seconds.
+  path: Assets/Scripts/StaticFields.cs
+  artifactKey: Guid(be87990c25987f64aa96f860af758623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/StaticFields.cs using Guid(be87990c25987f64aa96f860af758623) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d6b09df93d2f2f9640cf1c05fe0199e') in 0.0096164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.311421 seconds.
+  path: Assets/Scripts/SoundManager.cs
+  artifactKey: Guid(ad22a54f79c87f743b190ce7875ae1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoundManager.cs using Guid(ad22a54f79c87f743b190ce7875ae1d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f3467d536e7ad452e0bb385191836c2') in 0.0005115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 21 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5810 unused Assets / (5.7 MB). Loaded Objects now: 6644.
+Memory consumption went from 157.0 MB to 151.4 MB.
+Total: 14.499500 ms (FindLiveObjects: 0.730500 ms CreateObjectMapping: 1.045000 ms MarkObjects: 9.016300 ms  DeleteObjects: 3.706300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.203 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.818 seconds
+Domain Reload Profiling: 2026ms
+	BeginReloadAssembly (298ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (807ms)
+		LoadAssemblies (604ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (347ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (313ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (819ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (517ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (365ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.64 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 31 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5815 unused Assets / (4.2 MB). Loaded Objects now: 6595.
+Memory consumption went from 168.0 MB to 163.8 MB.
+Total: 11.780300 ms (FindLiveObjects: 1.038500 ms CreateObjectMapping: 1.258200 ms MarkObjects: 5.639000 ms  DeleteObjects: 3.842200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5808 unused Assets / (4.1 MB). Loaded Objects now: 6596.
+Memory consumption went from 166.0 MB to 161.9 MB.
+Total: 14.392100 ms (FindLiveObjects: 1.703900 ms CreateObjectMapping: 1.487500 ms MarkObjects: 6.774900 ms  DeleteObjects: 4.421200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 41.034497 seconds.
+  path: Assets/Scripts/SoundController.cs
+  artifactKey: Guid(d67e22c8665720c4fbc6bdb465aa39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoundController.cs using Guid(d67e22c8665720c4fbc6bdb465aa39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e91f35a6a5da73e3493f71667d27d81a') in 0.0418032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5809 unused Assets / (4.9 MB). Loaded Objects now: 6597.
+Memory consumption went from 166.0 MB to 161.1 MB.
+Total: 11.632100 ms (FindLiveObjects: 1.095000 ms CreateObjectMapping: 1.414700 ms MarkObjects: 5.681600 ms  DeleteObjects: 3.439400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5809 unused Assets / (4.6 MB). Loaded Objects now: 6597.
+Memory consumption went from 166.0 MB to 161.4 MB.
+Total: 13.809800 ms (FindLiveObjects: 1.192500 ms CreateObjectMapping: 1.439600 ms MarkObjects: 6.662600 ms  DeleteObjects: 4.513200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 67.505119 seconds.
+  path: Assets/Scripts/SoundController.cs
+  artifactKey: Guid(d67e22c8665720c4fbc6bdb465aa39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoundController.cs using Guid(d67e22c8665720c4fbc6bdb465aa39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ff842bdf5e38d5e1b34f3cf98e614ec') in 0.0108324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5810 unused Assets / (4.8 MB). Loaded Objects now: 6598.
+Memory consumption went from 166.0 MB to 161.2 MB.
+Total: 8.923600 ms (FindLiveObjects: 0.845600 ms CreateObjectMapping: 1.151200 ms MarkObjects: 4.054200 ms  DeleteObjects: 2.871700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.163841 seconds.
+  path: Assets/Scripts/SoundController.cs
+  artifactKey: Guid(d67e22c8665720c4fbc6bdb465aa39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoundController.cs using Guid(d67e22c8665720c4fbc6bdb465aa39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ff842bdf5e38d5e1b34f3cf98e614ec') in 0.0323943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5810 unused Assets / (4.3 MB). Loaded Objects now: 6598.
+Memory consumption went from 166.0 MB to 161.7 MB.
+Total: 12.306700 ms (FindLiveObjects: 0.839700 ms CreateObjectMapping: 1.326600 ms MarkObjects: 6.267200 ms  DeleteObjects: 3.872300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5810 unused Assets / (4.0 MB). Loaded Objects now: 6598.
+Memory consumption went from 166.0 MB to 162.0 MB.
+Total: 12.302200 ms (FindLiveObjects: 1.731900 ms CreateObjectMapping: 1.809100 ms MarkObjects: 5.879300 ms  DeleteObjects: 2.881100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 57.908718 seconds.
+  path: Assets/Scripts/SoundController.cs
+  artifactKey: Guid(d67e22c8665720c4fbc6bdb465aa39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/SoundController.cs using Guid(d67e22c8665720c4fbc6bdb465aa39f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ff842bdf5e38d5e1b34f3cf98e614ec') in 0.0110478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5810 unused Assets / (3.9 MB). Loaded Objects now: 6598.
+Memory consumption went from 166.0 MB to 162.1 MB.
+Total: 16.325200 ms (FindLiveObjects: 1.141900 ms CreateObjectMapping: 2.075100 ms MarkObjects: 8.116300 ms  DeleteObjects: 4.990600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.215 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.956 seconds
+Domain Reload Profiling: 2176ms
+	BeginReloadAssembly (324ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (84ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (791ms)
+		LoadAssemblies (656ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (25ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (256ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (957ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (633ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (27ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (447ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5818 unused Assets / (4.6 MB). Loaded Objects now: 6598.
+Memory consumption went from 167.8 MB to 163.2 MB.
+Total: 8.597100 ms (FindLiveObjects: 1.150700 ms CreateObjectMapping: 1.061400 ms MarkObjects: 4.266500 ms  DeleteObjects: 2.117700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.775267 seconds.
+  path: Assets/Sprites/Sound
+  artifactKey: Guid(7988600b90af23b48934e72c67d08f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sound using Guid(7988600b90af23b48934e72c67d08f65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f00511edba67d7a72a1403825356745') in 0.0275021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.892232 seconds.
+  path: Assets/Sprites/Textures
+  artifactKey: Guid(1f82516b92cdd7a43b90985e8c020b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures using Guid(1f82516b92cdd7a43b90985e8c020b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06f0d33230be7fc22a4f2b6fc0a691e8') in 0.0007308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5810 unused Assets / (5.0 MB). Loaded Objects now: 6598.
+Memory consumption went from 167.9 MB to 163.0 MB.
+Total: 12.271300 ms (FindLiveObjects: 0.955000 ms CreateObjectMapping: 1.395100 ms MarkObjects: 5.613300 ms  DeleteObjects: 4.306000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.845 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.769 seconds
+Domain Reload Profiling: 1616ms
+	BeginReloadAssembly (269ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (494ms)
+		LoadAssemblies (446ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (164ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (769ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (508ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (369ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5818 unused Assets / (4.8 MB). Loaded Objects now: 6598.
+Memory consumption went from 169.7 MB to 165.0 MB.
+Total: 11.100000 ms (FindLiveObjects: 0.946300 ms CreateObjectMapping: 1.850700 ms MarkObjects: 4.628000 ms  DeleteObjects: 3.673800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 43.370605 seconds.
+  path: Assets/Sprites/Sound/ButtonSlotProject-1.mp3
+  artifactKey: Guid(2bbd395cd5bf1f242aa4ec2ea9b0ecba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sound/ButtonSlotProject-1.mp3 using Guid(2bbd395cd5bf1f242aa4ec2ea9b0ecba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be516b7b803f7bd39d302e75e7dd9da8') in 0.1697838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Sound/WinSoundSlotProject-1.mp3
+  artifactKey: Guid(8b17a67ef31f29d4fac882c23e03ceb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Sound/WinSoundSlotProject-1.mp3 using Guid(8b17a67ef31f29d4fac882c23e03ceb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0200c71d1252dd786f409332eb287bf8') in 0.0103712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.170 seconds
+Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.115 seconds
+Domain Reload Profiling: 2288ms
+	BeginReloadAssembly (297ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (774ms)
+		LoadAssemblies (603ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (339ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (280ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1116ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (720ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (512ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5818 unused Assets / (4.4 MB). Loaded Objects now: 6600.
+Memory consumption went from 171.7 MB to 167.3 MB.
+Total: 16.782100 ms (FindLiveObjects: 1.522500 ms CreateObjectMapping: 2.096900 ms MarkObjects: 7.310200 ms  DeleteObjects: 5.851100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.173 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.025 seconds
+Domain Reload Profiling: 2200ms
+	BeginReloadAssembly (284ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (812ms)
+		LoadAssemblies (738ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (193ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1026ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (695ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (488ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5818 unused Assets / (4.8 MB). Loaded Objects now: 6600.
+Memory consumption went from 173.5 MB to 168.7 MB.
+Total: 14.149700 ms (FindLiveObjects: 0.867900 ms CreateObjectMapping: 1.381000 ms MarkObjects: 7.035700 ms  DeleteObjects: 4.862600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5810 unused Assets / (4.9 MB). Loaded Objects now: 6600.
+Memory consumption went from 173.7 MB to 168.8 MB.
+Total: 9.890400 ms (FindLiveObjects: 0.764200 ms CreateObjectMapping: 1.039600 ms MarkObjects: 4.498600 ms  DeleteObjects: 3.586800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.504 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.757 seconds
+Domain Reload Profiling: 2264ms
+	BeginReloadAssembly (274ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (25ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (1130ms)
+		LoadAssemblies (921ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (330ms)
+			TypeCache.Refresh (63ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (194ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (757ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (505ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5818 unused Assets / (4.6 MB). Loaded Objects now: 6600.
+Memory consumption went from 175.5 MB to 170.9 MB.
+Total: 9.342300 ms (FindLiveObjects: 0.883600 ms CreateObjectMapping: 1.542300 ms MarkObjects: 4.596400 ms  DeleteObjects: 2.319200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5810 unused Assets / (4.5 MB). Loaded Objects now: 6600.
+Memory consumption went from 175.7 MB to 171.2 MB.
+Total: 10.707500 ms (FindLiveObjects: 0.936500 ms CreateObjectMapping: 1.285500 ms MarkObjects: 5.200800 ms  DeleteObjects: 3.283500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5810 unused Assets / (4.6 MB). Loaded Objects now: 6600.
+Memory consumption went from 175.7 MB to 171.1 MB.
+Total: 9.466000 ms (FindLiveObjects: 0.909600 ms CreateObjectMapping: 1.362500 ms MarkObjects: 4.820500 ms  DeleteObjects: 2.372300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.839 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.723 seconds
+Domain Reload Profiling: 1564ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (486ms)
+		LoadAssemblies (410ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (178ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (723ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (461ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (322ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5818 unused Assets / (4.6 MB). Loaded Objects now: 6600.
+Memory consumption went from 177.5 MB to 172.9 MB.
+Total: 7.573000 ms (FindLiveObjects: 0.691800 ms CreateObjectMapping: 1.032000 ms MarkObjects: 3.700400 ms  DeleteObjects: 2.148200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 487.200384 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_1.png
+  artifactKey: Guid(55c518dee47b9134d864a1cfcdbe03e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_1.png using Guid(55c518dee47b9134d864a1cfcdbe03e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20f0e8d89913774cb44e3187c4d9ffba') in 0.1833796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_13.png
+  artifactKey: Guid(18b4461c1543dd7449b97c55235e2e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_13.png using Guid(18b4461c1543dd7449b97c55235e2e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47cec1ad7e2e4b9a2fd4fb2d0799c143') in 0.033696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_7.png
+  artifactKey: Guid(8ea8c051122b28b47982136c16d4f0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_7.png using Guid(8ea8c051122b28b47982136c16d4f0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '401e9e6134dd0a7ae77fca257caf8dca') in 0.0211129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_10.png
+  artifactKey: Guid(cb02eff132b62d642baa5b56aabbe622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_10.png using Guid(cb02eff132b62d642baa5b56aabbe622) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1926469a5756c949778d8163ed84e604') in 0.0200372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_6.png
+  artifactKey: Guid(dad9794ac7e3ebe4d9c7f8aa3f782d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_6.png using Guid(dad9794ac7e3ebe4d9c7f8aa3f782d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f441b6be3cb03f385e3f203d75297e1b') in 0.0181679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_9.png
+  artifactKey: Guid(e397c426f1a497d4794f3e8e6b426c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_9.png using Guid(e397c426f1a497d4794f3e8e6b426c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be39c4aa177d142595cfd4abb4efd1fe') in 0.0225183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_12.png
+  artifactKey: Guid(757bf3be30e0e2a4e95b820d74faa818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_12.png using Guid(757bf3be30e0e2a4e95b820d74faa818) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ab2330948a39af656d1a2ba9c46082d') in 0.0174954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.446370 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_14.png
+  artifactKey: Guid(0a2b94d7f9df3a049b3e4bdbc373be0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_14.png using Guid(0a2b94d7f9df3a049b3e4bdbc373be0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7f3e5e0f919e337e34e77574ccb7756') in 0.0340077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_21.png
+  artifactKey: Guid(124964f508ae5fc43b54ff6a0c0ab5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_21.png using Guid(124964f508ae5fc43b54ff6a0c0ab5ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8da458f2e2c18759483166791768dad2') in 0.023437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_16.png
+  artifactKey: Guid(360a416b250dfa54d939e5dab8e6142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_16.png using Guid(360a416b250dfa54d939e5dab8e6142d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34b40d99b2760db0d5d48889f95e525f') in 0.0187768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_20.png
+  artifactKey: Guid(0026f8480aea8f8479109de13b4c6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_20.png using Guid(0026f8480aea8f8479109de13b4c6023) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32506336f54ee9ca303bef5e01ba2897') in 0.0242287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.211618 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_23.png
+  artifactKey: Guid(e0416bd774c24e043935f47db3947be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_23.png using Guid(e0416bd774c24e043935f47db3947be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '035531a501d34a1342c262720c396b03') in 0.0381958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_26.png
+  artifactKey: Guid(cb7b8c5b78c994e4aad959b052604c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_26.png using Guid(cb7b8c5b78c994e4aad959b052604c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41f2dcd3d86d66223b61f01cb7b364ff') in 0.0253962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_29.png
+  artifactKey: Guid(3f7668dd5d708da4e80ab7e6b11833e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_29.png using Guid(3f7668dd5d708da4e80ab7e6b11833e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '467192ed91ae07a757a72f058b5905c0') in 0.0164711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_30.png
+  artifactKey: Guid(85e3b5c8952a6ef49888c07fae1bff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/apple/apple-animation_30.png using Guid(85e3b5c8952a6ef49888c07fae1bff67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a253681d7e76ce43705c041d91f4f6d8') in 0.0171153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.568992 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_22.png
+  artifactKey: Guid(d570e1c87f696ff469aad5d904284088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_22.png using Guid(d570e1c87f696ff469aad5d904284088) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c2a076231e52ea0f9e8acadcf7c9e6c') in 0.0319105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_26.png
+  artifactKey: Guid(3a6f82ca2b816d44a85a1e3461f01ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_26.png using Guid(3a6f82ca2b816d44a85a1e3461f01ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a531e9b742a5938c3ecbd37bd377e540') in 0.0223995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_27.png
+  artifactKey: Guid(ab27f83df9eb6c8479857c18b7b7c826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_27.png using Guid(ab27f83df9eb6c8479857c18b7b7c826) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c3675cee64185d705118d6b818a0150') in 0.0191894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_30.png
+  artifactKey: Guid(dc6d32f942013104dad22af844fa928f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_30.png using Guid(dc6d32f942013104dad22af844fa928f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91a18f70f46edd1ffbfda5d492c8bc77') in 0.0180261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.426826 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_22.png
+  artifactKey: Guid(067c920d4649df04da3bfdf5eb1c77a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_22.png using Guid(067c920d4649df04da3bfdf5eb1c77a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e8701c86afe7908294638d757c41318') in 0.0231542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_26.png
+  artifactKey: Guid(4f17758732dfebd4aa87b518d46b7d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_26.png using Guid(4f17758732dfebd4aa87b518d46b7d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd86eebdcbd880fc4514ef0f4c277da55') in 0.0197375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_28.png
+  artifactKey: Guid(66c6280efc0859345a38399bfae39b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_28.png using Guid(66c6280efc0859345a38399bfae39b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8306705c2c824b4cb8cfb89f6c2e5d4e') in 0.020876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_29.png
+  artifactKey: Guid(bd10541da09f39d49a00e7390bcd28a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_29.png using Guid(bd10541da09f39d49a00e7390bcd28a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c66e816d5b05054e39d81a24b584b6fe') in 0.0233664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_25.png
+  artifactKey: Guid(f06647947028832468db9e76e121812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_25.png using Guid(f06647947028832468db9e76e121812a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01ad7ca73776efc1953127e67d703b8b') in 0.0156933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.520283 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_21.png
+  artifactKey: Guid(5dab0cb1c5e44ff43a3df23348e3282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_21.png using Guid(5dab0cb1c5e44ff43a3df23348e3282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16848d324fc97305ae0ae04047d74956') in 0.0252214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_24.png
+  artifactKey: Guid(f01fca32652b01843a8847ac9c76e69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_24.png using Guid(f01fca32652b01843a8847ac9c76e69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd69fbb80f7a8c931f0bf67cdbcca858f') in 0.0183713 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_25.png
+  artifactKey: Guid(ed606d277a0d1d54d96536e02e8bf7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_25.png using Guid(ed606d277a0d1d54d96536e02e8bf7d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa3e70211c81a25079526fe2fc3268ae') in 0.0222228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_23.png
+  artifactKey: Guid(2ca6de2b9fbca9045a19dca168837bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_23.png using Guid(2ca6de2b9fbca9045a19dca168837bad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '753dc7b99cde47e98da038c442a4049a') in 0.0250908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_26.png
+  artifactKey: Guid(68b2120c913e82e4791ab7a04ffe81dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_26.png using Guid(68b2120c913e82e4791ab7a04ffe81dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6838445abb09b8598d660dd27fcc23b7') in 0.0207372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.619334 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_22.png
+  artifactKey: Guid(ef1dc7094ee4e55438c8d5a473b53c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_22.png using Guid(ef1dc7094ee4e55438c8d5a473b53c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ea34893d0eb605c3c5f204b0bb5631d') in 0.0207201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_25.png
+  artifactKey: Guid(d78a4ee0addaeac46942cb112c848551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_25.png using Guid(d78a4ee0addaeac46942cb112c848551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c030c3a22fb7375016e2c5e8f5b165fb') in 0.0221655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_30.png
+  artifactKey: Guid(a39f6fef625b8aa4da0923b0975e545b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_30.png using Guid(a39f6fef625b8aa4da0923b0975e545b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33a92044eaa3d55cfbd44e1cc0f50cf2') in 0.0226346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_28.png
+  artifactKey: Guid(e630741fd3ab1de4fa80263b82e11c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_28.png using Guid(e630741fd3ab1de4fa80263b82e11c59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd71aab447680258bd9e4a4dee33f9285') in 0.0231295 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_24.png
+  artifactKey: Guid(d276d8f486304ea4f8c2083df1e18178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_24.png using Guid(d276d8f486304ea4f8c2083df1e18178) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0dc38e4416cd9574a0d13a62c69921b7') in 0.0171503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.157234 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_18.png
+  artifactKey: Guid(678300b52edd5d6458b8c6b2e4a329bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_18.png using Guid(678300b52edd5d6458b8c6b2e4a329bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef10437d48997081daebb68fa5100c88') in 0.0240983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011667 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_17.png
+  artifactKey: Guid(326260c71f097b246b315d4123f4c988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_17.png using Guid(326260c71f097b246b315d4123f4c988) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85db253e2d79143bdb680b055c574e36') in 0.0210137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_12.png
+  artifactKey: Guid(39db6f84b0fc4ee46aafa0178ccc6e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_12.png using Guid(39db6f84b0fc4ee46aafa0178ccc6e96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '96686aa27e9d46c4471b86b78bc8d116') in 0.0202905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_13.png
+  artifactKey: Guid(dd2913a03c6d119408e608221c15eb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_13.png using Guid(dd2913a03c6d119408e608221c15eb11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66e5ffbe16ed18c8a36b5160c186e0b2') in 0.0219569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.155495 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_9.png
+  artifactKey: Guid(fbee6816800e7f149a48ddcbb554a0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_9.png using Guid(fbee6816800e7f149a48ddcbb554a0ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f77a06279bc07cbb049b739ab8e8876') in 0.0206085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009538 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_6.png
+  artifactKey: Guid(ca0eeca5cbf5dde4aa2c2f98d933e2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_6.png using Guid(ca0eeca5cbf5dde4aa2c2f98d933e2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd5ac037668f9007392b70cf52dc30fe0') in 0.023052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_7.png
+  artifactKey: Guid(27dcd027b05406d4b90714b2506d2187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_7.png using Guid(27dcd027b05406d4b90714b2506d2187) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51ae78b68d068b5207e35ceb5c5915e0') in 0.0183465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_5.png
+  artifactKey: Guid(f2997b47baf47d44391b4f634031f475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_5.png using Guid(f2997b47baf47d44391b4f634031f475) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db8dba7dbff4a6aa14b4d6a14d9644a8') in 0.0216313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_1.png
+  artifactKey: Guid(cd585f37fe190354a9e0eafee65e881b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_1.png using Guid(cd585f37fe190354a9e0eafee65e881b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e480dc2de0b987ef62c7ff2bc5a098d2') in 0.0212127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_4.png
+  artifactKey: Guid(16b08dd8f82d8cd4d8ccd38b2484c586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/coconut-animation_4.png using Guid(16b08dd8f82d8cd4d8ccd38b2484c586) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0edb87c1651ba1de9e9073cbc13c6b0b') in 0.0168094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.545936 seconds.
+  path: Assets/Sprites/FirstAnimation.anim
+  artifactKey: Guid(2e9b99de5e4339941b2867e016c23e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/FirstAnimation.anim using Guid(2e9b99de5e4339941b2867e016c23e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34d4b5bacf0252a817c566149e956527') in 0.0016885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.240504 seconds.
+  path: Assets/Sprites/Animation
+  artifactKey: Guid(04cb46078d00b6b4480fef3102a40c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animation using Guid(04cb46078d00b6b4480fef3102a40c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c581a82dd24822190f6bc9ce67029bb') in 0.0128323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.695601 seconds.
+  path: Assets/Sprites/Animation/FirstAnimation.controller
+  artifactKey: Guid(d608e7513c3ac7a45a43550fc16995b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animation/FirstAnimation.controller using Guid(d608e7513c3ac7a45a43550fc16995b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9281ac809da94b9a416e02075e01b26') in 0.0045303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.676175 seconds.
+  path: Assets/Sprites/Animation/FirstAnimator.controller
+  artifactKey: Guid(d608e7513c3ac7a45a43550fc16995b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animation/FirstAnimator.controller using Guid(d608e7513c3ac7a45a43550fc16995b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60549ee056eef45ee43e00fde0ddda28') in 0.001732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.984967 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_22.png
+  artifactKey: Guid(b78b608fe932ec346908f54b937d6c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_22.png using Guid(b78b608fe932ec346908f54b937d6c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '453c1bd2fbd2bc3055f3ee38b9f9e9b6') in 0.0295167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_28.png
+  artifactKey: Guid(04de0bd7ea4604c408f7b0661ab30557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_28.png using Guid(04de0bd7ea4604c408f7b0661ab30557) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcb3e307f15ce2711a3ba8f52a933969') in 0.0191773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_24.png
+  artifactKey: Guid(7c2afea4358f8314786c8ac21bcd8b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_24.png using Guid(7c2afea4358f8314786c8ac21bcd8b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e69356b13b8f6cb9e6368337a6f5a10c') in 0.0328326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_27.png
+  artifactKey: Guid(a11b9e18fac7d864c975233dea40562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_27.png using Guid(a11b9e18fac7d864c975233dea40562b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e7f3a09ee9bea8607819836934ae86b') in 0.0389112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.340143 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_22.png
+  artifactKey: Guid(8b8407ef9d02321438880fc316c3a63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_22.png using Guid(8b8407ef9d02321438880fc316c3a63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d23eaff6c7498609c9b466b757d9118') in 0.0378689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_33.png
+  artifactKey: Guid(c84e820f50cdcf44c9cb6db469954a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_33.png using Guid(c84e820f50cdcf44c9cb6db469954a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0f0742228e31de9bace8ff9388e83fa2') in 0.0225434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_26.png
+  artifactKey: Guid(95c6c3d82d85a184fb92fff817a08104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_26.png using Guid(95c6c3d82d85a184fb92fff817a08104) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '72c67343bd06f77a59b0a843267b489e') in 0.0287471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_32.png
+  artifactKey: Guid(57c066c336f9ab8479e69e1f43432873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_32.png using Guid(57c066c336f9ab8479e69e1f43432873) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ca27fdf0bda84a3feed611b73a27b3f') in 0.027269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_31.png
+  artifactKey: Guid(22b9e43c4577ef444bae4094c8210048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_31.png using Guid(22b9e43c4577ef444bae4094c8210048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db485bbd553867f8bfcd519ee760b6fe') in 0.0283827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_29.png
+  artifactKey: Guid(4a3395dad5f732040aed64421d877104) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_29.png using Guid(4a3395dad5f732040aed64421d877104) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45d159207433ef0919ce4b86e45194cf') in 0.022871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_34.png
+  artifactKey: Guid(05f293c769c10eb4f86f7b2e2f9c0587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_34.png using Guid(05f293c769c10eb4f86f7b2e2f9c0587) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21064a5ba864252ed6e85d60c78270ac') in 0.0278334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.471453 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_19.png
+  artifactKey: Guid(fcdce601a86a0a44a8c80a8086dc8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_19.png using Guid(fcdce601a86a0a44a8c80a8086dc8b30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da5ea692e90623b8f95a2765267b38ef') in 0.0218997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_21.png
+  artifactKey: Guid(13918e8a667980043b42ddd41f189b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_21.png using Guid(13918e8a667980043b42ddd41f189b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39bf2bda3a1968f2fad55ca91a6613c0') in 0.0223843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_13.png
+  artifactKey: Guid(41f65f0cb79c4914e9ec75c4e3e96d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_13.png using Guid(41f65f0cb79c4914e9ec75c4e3e96d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e7a8faafb92bb497a40bc7379a0d3b4') in 0.0222766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_16.png
+  artifactKey: Guid(a007348194f614d47ba434ff0ca0d527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_16.png using Guid(a007348194f614d47ba434ff0ca0d527) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd45eb4da2d864ef745cce450afb3d434') in 0.0257877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.462720 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_10.png
+  artifactKey: Guid(9e38dfaa76a04ef49b992a3d920438e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_10.png using Guid(9e38dfaa76a04ef49b992a3d920438e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b57b1b876871ace375c8459278477748') in 0.0245628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_6.png
+  artifactKey: Guid(34cae7cf3e03c904a816983fb3128c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_6.png using Guid(34cae7cf3e03c904a816983fb3128c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '516420675d1dc9e1c9585dd6ab35a749') in 0.0193404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_5.png
+  artifactKey: Guid(92e005852041f2344b17b11668033bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_5.png using Guid(92e005852041f2344b17b11668033bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29386e10cf5101fc2050de2bdb92ec69') in 0.0294459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_2.png
+  artifactKey: Guid(2e509ac9f3ccc9f4ca3710c005995f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_2.png using Guid(2e509ac9f3ccc9f4ca3710c005995f2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b61af408f341af45353adbe0b3e4b2d') in 0.0218346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_8.png
+  artifactKey: Guid(ed0db154f58ad2f4ebe4159fe30f88e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_8.png using Guid(ed0db154f58ad2f4ebe4159fe30f88e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f8e163f9cee6fab9e52712bef405c719') in 0.0224826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_12.png
+  artifactKey: Guid(2018ed81eebe93043818e4835b5929ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/_character/Character-happy_12.png using Guid(2018ed81eebe93043818e4835b5929ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6cbde6ba7ff317a37ac55495c149f0fa') in 0.022741 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.597311 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_1.png
+  artifactKey: Guid(4045c9aeacdc72f47bb943a27382c597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_1.png using Guid(4045c9aeacdc72f47bb943a27382c597) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ead5512968cfd662d2bcec295e0c7a1') in 0.0209995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_5.png
+  artifactKey: Guid(d0ef142b809e5c04cafa2a6e0a0c737c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_5.png using Guid(d0ef142b809e5c04cafa2a6e0a0c737c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afaa319de16dd8d26c747cf28dd597dc') in 0.0238109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_3.png
+  artifactKey: Guid(ac1ffa2f886fb694fb657b88b5a4fdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_3.png using Guid(ac1ffa2f886fb694fb657b88b5a4fdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcc776043982a3bbdc86ccdaead7c51f') in 0.0291864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_10.png
+  artifactKey: Guid(b58e5c7f56e44cb44a9fe8b2da4bf91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_10.png using Guid(b58e5c7f56e44cb44a9fe8b2da4bf91f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '223b6482ad977baf514e21a22dc9f629') in 0.021416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_13.png
+  artifactKey: Guid(d5ff06afbb1fd864d89c55756e5327b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_13.png using Guid(d5ff06afbb1fd864d89c55756e5327b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c15bf84894806fdcea5256a43091cae') in 0.0193237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_8.png
+  artifactKey: Guid(ed1ce7d164713924ba35d36b7847ae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_8.png using Guid(ed1ce7d164713924ba35d36b7847ae56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e36559af12ac75267c12a7a1a43bff9') in 0.0247203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_11.png
+  artifactKey: Guid(c8f5fb7d3c924f44ab54273044961324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_11.png using Guid(c8f5fb7d3c924f44ab54273044961324) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f29e1fbbc9ccc338071977aeef3cd483') in 0.020261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.833497 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_14.png
+  artifactKey: Guid(cb2702b2623e42e408db4925db8ab504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_14.png using Guid(cb2702b2623e42e408db4925db8ab504) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b4d7457e0da95d9da77c7e3ff69face') in 0.0166142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014067 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_17.png
+  artifactKey: Guid(fff242280b97f8849ad224ceb513edaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_17.png using Guid(fff242280b97f8849ad224ceb513edaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a52038fe1db67a8c5d3fe215f83b656') in 0.0224669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000578 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_20.png
+  artifactKey: Guid(f1a1170ae6d07754db8db88cc7838c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cherry/cherry-animation_20.png using Guid(f1a1170ae6d07754db8db88cc7838c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4c7597438708f53d09212457feb5ce10') in 0.0196424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.637805 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_19.png
+  artifactKey: Guid(281fdf05b72991e49872eddd54dd2551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_19.png using Guid(281fdf05b72991e49872eddd54dd2551) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1aca90033a18d3c21fdae3dea05e39b5') in 0.0224341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_16.png
+  artifactKey: Guid(88757dbe95d81524787eb60b49e38f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_16.png using Guid(88757dbe95d81524787eb60b49e38f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b300f278e32ac482adc646cd954cae3b') in 0.0245688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_17.png
+  artifactKey: Guid(68ae57762e0dfab4db4c0d622aebc06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_17.png using Guid(68ae57762e0dfab4db4c0d622aebc06a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '100393512cbe697eb6025ec9b5957a6e') in 0.0173831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_14.png
+  artifactKey: Guid(0f9d245669a7ba640a1360e47ab8ef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_14.png using Guid(0f9d245669a7ba640a1360e47ab8ef15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'acfbebef97d838fa18124d3667384e7e') in 0.035494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.582065 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_1.png
+  artifactKey: Guid(2357fc0b1c046b840b3fbc53ba7d0dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_1.png using Guid(2357fc0b1c046b840b3fbc53ba7d0dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '184ddbfd5f70f910564100783acd3061') in 0.0209324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_9.png
+  artifactKey: Guid(3253c4b4626bb3049ad0414e27f95969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_9.png using Guid(3253c4b4626bb3049ad0414e27f95969) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2875ce681cc38486ba275b54cce75e5e') in 0.013282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020510 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_6.png
+  artifactKey: Guid(99c093d1f9aaf274ea56ccd1c9d548e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_6.png using Guid(99c093d1f9aaf274ea56ccd1c9d548e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99bc203f04b37e32144af1c82b4dc158') in 0.0317981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_12.png
+  artifactKey: Guid(b79de82bcbec5cb4fb6980388d47ac9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_12.png using Guid(b79de82bcbec5cb4fb6980388d47ac9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b4c574515d7abca2e7be4e714c44746') in 0.0225214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_3.png
+  artifactKey: Guid(2ea410d6ffb7ab94990787351e5a9580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_3.png using Guid(2ea410d6ffb7ab94990787351e5a9580) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '432355452b2aeb88894c9b5e4c00e5bf') in 0.0195485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_7.png
+  artifactKey: Guid(19e6a661662982c4fb56eb4859645d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_7.png using Guid(19e6a661662982c4fb56eb4859645d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62db3ace3ff00edbb0cb60a69827b861') in 0.029027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.469241 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_1.png
+  artifactKey: Guid(6b84f590b1de2394a88eb0b37537adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_1.png using Guid(6b84f590b1de2394a88eb0b37537adef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f720d69f333c9d1f4c443eefe3adbc0e') in 0.0208386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_11.png
+  artifactKey: Guid(744abe39b519a8945807c2a3587f1655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_11.png using Guid(744abe39b519a8945807c2a3587f1655) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebe50d8886a8a81df405ce9e630eab02') in 0.0201719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_4.png
+  artifactKey: Guid(3f6f1c06a56b20e47a8ff250cdbe0118) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_4.png using Guid(3f6f1c06a56b20e47a8ff250cdbe0118) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d91c202fb704e6b820b5af47ee066e5') in 0.0271095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_13.png
+  artifactKey: Guid(8d3d0897b9919674aa6aecf4831df113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_13.png using Guid(8d3d0897b9919674aa6aecf4831df113) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b253dec7819d1df4db11f08448bd5c79') in 0.0243647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_10.png
+  artifactKey: Guid(895ef21e10659d045b87fd16fc1c6ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_10.png using Guid(895ef21e10659d045b87fd16fc1c6ed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f906c425111b880d17deb6d3030cf65c') in 0.0302633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_5.png
+  artifactKey: Guid(644b2643e89cbe2488a41924e21e9ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_5.png using Guid(644b2643e89cbe2488a41924e21e9ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e0dfbf379cf0e25f9949dd723f5c242') in 0.0265258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.292850 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_0.png
+  artifactKey: Guid(7319841fe0f527d44ac587ad37672c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_0.png using Guid(7319841fe0f527d44ac587ad37672c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85d6dd14ee8c43653ea98a31dd6deca0') in 0.0158571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_4.png
+  artifactKey: Guid(93a492b6b12446c44a6f2be12ebb703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_4.png using Guid(93a492b6b12446c44a6f2be12ebb703b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4d5ce00b65b31b09810042631fcca3c') in 0.0225401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_10.png
+  artifactKey: Guid(3e3cac6eba9ec1e4ba9b569028379446) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_10.png using Guid(3e3cac6eba9ec1e4ba9b569028379446) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f16bc8a34e783f86321e7cb8219a57c8') in 0.0176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_2.png
+  artifactKey: Guid(8d8f4760149d2e44f9396c8c9299e9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_2.png using Guid(8d8f4760149d2e44f9396c8c9299e9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '591c44484ba7e2b07aca68aa7979b659') in 0.026015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_8.png
+  artifactKey: Guid(0cb53641e6725074fa593906d666dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_8.png using Guid(0cb53641e6725074fa593906d666dbd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c91240b3394702ea1825ce12b7c3a6df') in 0.0204675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_12.png
+  artifactKey: Guid(51daf37f1ba32b54d84225d73a5c4a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_12.png using Guid(51daf37f1ba32b54d84225d73a5c4a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '46b520efa2773f0ab0ef879da456de25') in 0.0191442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316261 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_1.png
+  artifactKey: Guid(0309dcbd05bf5f8489450d3f8977d4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_1.png using Guid(0309dcbd05bf5f8489450d3f8977d4e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b87367c0fdc5a19e226cfb57d1f26b53') in 0.0201189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_11.png
+  artifactKey: Guid(ba2cb2569b850da4d97e0e9984f7dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_11.png using Guid(ba2cb2569b850da4d97e0e9984f7dfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58ef8b35da482c75a8a70f2440f73584') in 0.0338225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_13.png
+  artifactKey: Guid(a83770596ec773146aeb4ce2f2cb61da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_13.png using Guid(a83770596ec773146aeb4ce2f2cb61da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9fa5a3cbcb7ade2bfd17153eeb39fad') in 0.02038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_8.png
+  artifactKey: Guid(4b0a4ab2988ee734d861e533b1bb2d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_8.png using Guid(4b0a4ab2988ee734d861e533b1bb2d52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f9bdaf4074cf3bee007e61670ef500f') in 0.0213092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_5.png
+  artifactKey: Guid(972af69f077e6a74e977de008af46db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_5.png using Guid(972af69f077e6a74e977de008af46db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc79048ef6d3f50d26babe63d9e1da54') in 0.0209247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_7.png
+  artifactKey: Guid(2aa9f7566b3c9814a9d56d0c70062aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_7.png using Guid(2aa9f7566b3c9814a9d56d0c70062aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a3ec6062ca51cd9122faec359259b60') in 0.021738 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.767138 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/splash/splash-animation_0.png
+  artifactKey: Guid(058704c449ff3b943a1d0543bf7d6688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/splash/splash-animation_0.png using Guid(058704c449ff3b943a1d0543bf7d6688) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '121cfa61de871deea12956b12a957c96') in 0.0183218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/splash/splash-animation_11.png
+  artifactKey: Guid(a414e0604505a894c80d5d488c9fbd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/splash/splash-animation_11.png using Guid(a414e0604505a894c80d5d488c9fbd65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3110752bbac32c552eb2805e76a3549a') in 0.0203275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/splash/splash-animation_6.png
+  artifactKey: Guid(c2b5ca418127d7b47a37477fb0248d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/splash/splash-animation_6.png using Guid(c2b5ca418127d7b47a37477fb0248d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '63fef654fb94e9df8a81294e7a2c3c23') in 0.0191927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/splash/splash-animation_10.png
+  artifactKey: Guid(b3440d0dcca81a447a117ecbf1acff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/splash/splash-animation_10.png using Guid(b3440d0dcca81a447a117ecbf1acff2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48b80d5b40a1aadda48c6cd4506d3990') in 0.0220177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/splash/splash-animation_8.png
+  artifactKey: Guid(a263c51197ff4f94e9bc96c8751e8366) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/splash/splash-animation_8.png using Guid(a263c51197ff4f94e9bc96c8751e8366) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58ac82a698afee2d70c4abaea4b8ccdc') in 0.0191442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/splash/splash-animation_3.png
+  artifactKey: Guid(6f6f5fe1ab0043644942418a9c961ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/splash/splash-animation_3.png using Guid(6f6f5fe1ab0043644942418a9c961ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e7e8df6300204f6b4056382e75a1734f') in 0.0183305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/splash/splash-animation_9.png
+  artifactKey: Guid(df18c19281e2f26468eb954c9767cbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/splash/splash-animation_9.png using Guid(df18c19281e2f26468eb954c9767cbf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f73b5feb6216943bb365658fd02ee41') in 0.0189595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.269312 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/strawberry/straw-animation_0.png
+  artifactKey: Guid(66f12c9e5fd9b5941a261076cdfd0c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/strawberry/straw-animation_0.png using Guid(66f12c9e5fd9b5941a261076cdfd0c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4db28032d06c5e65e007804b1e6af08c') in 0.0176696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/strawberry/straw-animation_11.png
+  artifactKey: Guid(baa9b73348a567d4f9b97fc70be1fd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/strawberry/straw-animation_11.png using Guid(baa9b73348a567d4f9b97fc70be1fd21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7422a4fa590d5df0cff972a8c90642ef') in 0.0189616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/strawberry/straw-animation_7.png
+  artifactKey: Guid(831a235e61806a243bdac57fccdbc55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/strawberry/straw-animation_7.png using Guid(831a235e61806a243bdac57fccdbc55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a15a16f895dd0b0e9d4dd50e026433b') in 0.0177411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/strawberry/straw-animation_10.png
+  artifactKey: Guid(5dc0f9efb3391a244972dfc8fa542824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/strawberry/straw-animation_10.png using Guid(5dc0f9efb3391a244972dfc8fa542824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1817ee1c6bee6b4c3fb938559d20da39') in 0.0193028 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/strawberry/straw-animation_6.png
+  artifactKey: Guid(1fa8edb9d9a7ad249a5ce0c4e91c649c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/strawberry/straw-animation_6.png using Guid(1fa8edb9d9a7ad249a5ce0c4e91c649c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26d530c3e7717b9c1dbf01407e67ddd2') in 0.0219214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/strawberry/straw-animation_9.png
+  artifactKey: Guid(2a5868b93cbb4d14dae8c577cd132bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/strawberry/straw-animation_9.png using Guid(2a5868b93cbb4d14dae8c577cd132bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f46bbfd9c210a8f11c607dc9088528b') in 0.0197002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/strawberry/straw-animation_4.png
+  artifactKey: Guid(f9a863d2a4724404e960e77a3ecd3f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/strawberry/straw-animation_4.png using Guid(f9a863d2a4724404e960e77a3ecd3f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccebbb967b187d0a604e4991e618e4a1') in 0.0179745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.310478 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/waterlemon/watermelon-animation_0.png
+  artifactKey: Guid(97e4e8407152f424e837d29e43dce171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/waterlemon/watermelon-animation_0.png using Guid(97e4e8407152f424e837d29e43dce171) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd821a27e1e90b0dc05c7f78536c716d6') in 0.0335137 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/waterlemon/watermelon-animation_9.png
+  artifactKey: Guid(a932d2dcd4326924da6d58985cab9cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/waterlemon/watermelon-animation_9.png using Guid(a932d2dcd4326924da6d58985cab9cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b1355cde180873a7bc3ff0c3e41d972') in 0.0227131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/waterlemon/watermelon-animation_6.png
+  artifactKey: Guid(f56191e0de187594090d793e2159bd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/waterlemon/watermelon-animation_6.png using Guid(f56191e0de187594090d793e2159bd8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '24057f17703647165f98e1b55b262cee') in 0.0224992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/waterlemon/watermelon-animation_5.png
+  artifactKey: Guid(307b3c1e815cf0f4a9368745f38c3d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/waterlemon/watermelon-animation_5.png using Guid(307b3c1e815cf0f4a9368745f38c3d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7adc8c42a6f6b01ec3143c6698c331b6') in 0.0176889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/waterlemon/watermelon-animation_7.png
+  artifactKey: Guid(9ee5f8ead69ee324d9cb9e0cdf88ae4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/waterlemon/watermelon-animation_7.png using Guid(9ee5f8ead69ee324d9cb9e0cdf88ae4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d9512813938a7170ec4182e98459be5') in 0.0202956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/waterlemon/watermelon-animation_10.png
+  artifactKey: Guid(4ae05d9cccdaa26409d8159217848c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/waterlemon/watermelon-animation_10.png using Guid(4ae05d9cccdaa26409d8159217848c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3160b606e58c23885aeef25346e707b8') in 0.0219041 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.854255 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_1.png
+  artifactKey: Guid(057947381b74a084aa8fa758bb47a51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_1.png using Guid(057947381b74a084aa8fa758bb47a51d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e58205a3602e9ae70cb08b64f4770c52') in 0.0155428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_4.png
+  artifactKey: Guid(0ed774788a56cb24abe0ef431dac3781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_4.png using Guid(0ed774788a56cb24abe0ef431dac3781) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad3069ac08e9a6020a0a35ebaf4a4b3f') in 0.0197745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_6.png
+  artifactKey: Guid(ec930325c94aa6641b7929ba282d6e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_6.png using Guid(ec930325c94aa6641b7929ba282d6e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5537df24444407886a5aed840c03dabb') in 0.0162511 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_8.png
+  artifactKey: Guid(75eb3c1f24824bb439493822a5f69e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_8.png using Guid(75eb3c1f24824bb439493822a5f69e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba3ca9dd3cac6caf79cf8e6f85b29011') in 0.0211524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_7.png
+  artifactKey: Guid(41d59f4491bcf0b499cf2b1ae29296e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_7.png using Guid(41d59f4491bcf0b499cf2b1ae29296e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87ae36d7b5c3d2ce325ec2de51583069') in 0.0198139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_9.png
+  artifactKey: Guid(6031f2dafd837014383cd7f59ce2276e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/cocktail/cocktail-animation_9.png using Guid(6031f2dafd837014383cd7f59ce2276e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '97006bc05c7bec9c45449e58ca572e50') in 0.0230708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.577514 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/CoconutAnimation.anim
+  artifactKey: Guid(83b4db4e991a8e14e9e4b5489b0df248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/CoconutAnimation.anim using Guid(83b4db4e991a8e14e9e4b5489b0df248) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f671d9ffe5778ac9900e8c095aef8f3c') in 0.0013948 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.921137 seconds.
+  path: Assets/Prefabs/Crystal.prefab
+  artifactKey: Guid(06e362f3f6cdd2b4d8048118aafeeebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Crystal.prefab using Guid(06e362f3f6cdd2b4d8048118aafeeebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11aca2736d92af8c49e0671b8638f897') in 0.0318721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.758331 seconds.
+  path: Assets/Prefabs/Coconut.prefab
+  artifactKey: Guid(06e362f3f6cdd2b4d8048118aafeeebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Coconut.prefab using Guid(06e362f3f6cdd2b4d8048118aafeeebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a597022cec7ebd0f3184c374e32ae160') in 0.0019664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.925368 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/Crystal.controller
+  artifactKey: Guid(370b9ada1ebbd8047bc89556aab06de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/Crystal.controller using Guid(370b9ada1ebbd8047bc89556aab06de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e1bfbe00d2edbe751295e3d2b5b3da6') in 0.0012828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.244704 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/Coconus.controller
+  artifactKey: Guid(370b9ada1ebbd8047bc89556aab06de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/Coconus.controller using Guid(370b9ada1ebbd8047bc89556aab06de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '312a29fb494c78a428a1d921d46e0563') in 0.0016733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.323614 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/Coconut.controller
+  artifactKey: Guid(370b9ada1ebbd8047bc89556aab06de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/coconut/Coconut.controller using Guid(370b9ada1ebbd8047bc89556aab06de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9ee83320da0ab96a8d474bb5831ff72') in 0.0013506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.145181 seconds.
+  path: Assets/Prefabs/Coconut.prefab
+  artifactKey: Guid(06e362f3f6cdd2b4d8048118aafeeebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Coconut.prefab using Guid(06e362f3f6cdd2b4d8048118aafeeebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c5d241443387bb788fa0943f47012b7d') in 0.0032528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.098738 seconds.
+  path: Assets/Sprites/Animation/CoconutAnimation.anim
+  artifactKey: Guid(83b4db4e991a8e14e9e4b5489b0df248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Animation/CoconutAnimation.anim using Guid(83b4db4e991a8e14e9e4b5489b0df248) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a9b4fe867701a9d35c623f08c78b882c') in 0.0019141 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.157343 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_14.png
+  artifactKey: Guid(51fbe0babc211c24bad823a8976ab3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_14.png using Guid(51fbe0babc211c24bad823a8976ab3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db7cc644ff56c70d062ee1fc858c1724') in 0.0198833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_16.png
+  artifactKey: Guid(e99dc2dbc28b2a3469d42c789143ecff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_16.png using Guid(e99dc2dbc28b2a3469d42c789143ecff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53d89d6a30579dbfac6b9b6909c333c7') in 0.0196908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114211 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_17.png
+  artifactKey: Guid(b6e99a25f85d956448c6533e44f100d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_17.png using Guid(b6e99a25f85d956448c6533e44f100d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0146950bdff3dd1493512643b4a4d1b2') in 0.0231817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_19.png
+  artifactKey: Guid(bd1b368a11b0bc9458309a23d45fa9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_19.png using Guid(bd1b368a11b0bc9458309a23d45fa9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22f0e7f7bebf75f561f33475f1b066b1') in 0.0191112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.275713 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_20.png
+  artifactKey: Guid(4e181ebe4cc5ff84d838943098c6104e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_20.png using Guid(4e181ebe4cc5ff84d838943098c6104e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '058a45c3bd7c20d16bef2dad51e00b06') in 0.020217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029101 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_23.png
+  artifactKey: Guid(590168abd52921c48b38837b703d2a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_23.png using Guid(590168abd52921c48b38837b703d2a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'efae941afb42bb46eca12894d356f76d') in 0.0214176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_25.png
+  artifactKey: Guid(a68c90f63dde4b54e963a1d0ff85fcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_25.png using Guid(a68c90f63dde4b54e963a1d0ff85fcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '628dbf05cb481f9faf1a49cb9162e46d') in 0.0168916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001326 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_26.png
+  artifactKey: Guid(33367b5994de46049aa07122d001a4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_26.png using Guid(33367b5994de46049aa07122d001a4fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bf564e9107b23131f47c34b420f1255') in 0.0217975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_28.png
+  artifactKey: Guid(48efd3a5fcc3b2b46a2436da03534b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_28.png using Guid(48efd3a5fcc3b2b46a2436da03534b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f0a65dafefc09bbbe6221a417bbe050') in 0.0209152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.307316 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_29.png
+  artifactKey: Guid(797b770f506729f448e4986e0f741255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/lemon/lemon-animation_29.png using Guid(797b770f506729f448e4986e0f741255) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '263075bc67328dd3085fb4712a9e73ba') in 0.02192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.810940 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_19.png
+  artifactKey: Guid(ebd8c79bb3c8df24cb73378f5fa40bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_19.png using Guid(ebd8c79bb3c8df24cb73378f5fa40bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ee4009fc6a687ab32455b8be707fd977') in 0.0173825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_21.png
+  artifactKey: Guid(2f3a0f3c17e3d6b44b5ca33a67948892) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_21.png using Guid(2f3a0f3c17e3d6b44b5ca33a67948892) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94a713edf1cf7d7206e4e5c0ac824a3c') in 0.0152747 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015033 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_16.png
+  artifactKey: Guid(4b5da96a1363b9e419a647377c92e268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_16.png using Guid(4b5da96a1363b9e419a647377c92e268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c88345e5fb3c57c20262ab060f183f53') in 0.0193817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_14.png
+  artifactKey: Guid(0eb44987813e82d419493ed9bc40873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/grapefruit/grapeFruit-animation_14.png using Guid(0eb44987813e82d419493ed9bc40873f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '18d29ab31bcdd9621b0cfe9deedbe8a9') in 0.0226186 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.376784 seconds.
+  path: Assets/Prefabs/GrapeFruit.prefab
+  artifactKey: Guid(4dc108e2e5db99f4da19fe4db5a23cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GrapeFruit.prefab using Guid(4dc108e2e5db99f4da19fe4db5a23cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ae6988b7e6fe67752d916c1dc956152') in 0.003507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.918746 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_13.png
+  artifactKey: Guid(14ec57d58bd72a14f9b8dc261dd80e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_13.png using Guid(14ec57d58bd72a14f9b8dc261dd80e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '793aa370384ed2ddbe6b39a89cf1d7ff') in 0.0319499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_15.png
+  artifactKey: Guid(9dc9a772da5b5254c9fff351a290f25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_15.png using Guid(9dc9a772da5b5254c9fff351a290f25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '79439d25e195350faec38a9f35065bae') in 0.0164363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_17.png
+  artifactKey: Guid(d8705a63272aebb428082c3dbe132311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_17.png using Guid(d8705a63272aebb428082c3dbe132311) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e2d519f44a9a5a3225f311e08f00f99') in 0.0258923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_19.png
+  artifactKey: Guid(de41de14d824cb1419c21cdb31d0aecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_19.png using Guid(de41de14d824cb1419c21cdb31d0aecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e3cb3f5963d73229c0a2e6354edbfbc') in 0.0188676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.353647 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_22.png
+  artifactKey: Guid(2ca8f41302367524a81e2f9ce0d4c743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_22.png using Guid(2ca8f41302367524a81e2f9ce0d4c743) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa9c4e7e4f621ca8bb00d3277148065d') in 0.0195352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_27.png
+  artifactKey: Guid(ccf50d21783197a44a32f9b198db461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_27.png using Guid(ccf50d21783197a44a32f9b198db461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '003c3abf002225c9c1edc18b47244406') in 0.0210065 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_25.png
+  artifactKey: Guid(76c193a237174194f80bbdbebaf72b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_25.png using Guid(76c193a237174194f80bbdbebaf72b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dc85ddf0ec44e8f817a6933f0b99ff4') in 0.0198995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_30.png
+  artifactKey: Guid(a189a033cf61e0e4e9dc348d90c19069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_30.png using Guid(a189a033cf61e0e4e9dc348d90c19069) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '638d45dce8836fab8332fce47837d620') in 0.0266915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_29.png
+  artifactKey: Guid(b7ad8ecff4f2ef743948f1909c8038dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pear/pear-animation_29.png using Guid(b7ad8ecff4f2ef743948f1909c8038dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b10d23ac35cc18521ed13b0dc362a479') in 0.0173695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.815345 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_19.png
+  artifactKey: Guid(c6f7797751811254dba548e22889c46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_19.png using Guid(c6f7797751811254dba548e22889c46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d65c715a67c90144864248aa6b0f9fd') in 0.0251679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_18.png
+  artifactKey: Guid(3beff88abf50aa840a106428ad49af46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_18.png using Guid(3beff88abf50aa840a106428ad49af46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a9d71dab45a1fdf6f6033f79100ea6b') in 0.0224424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_21.png
+  artifactKey: Guid(609549d34360c4048bcaa0d511f47ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_21.png using Guid(609549d34360c4048bcaa0d511f47ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f6e0c0191da8774f4bf40596c953227') in 0.0180607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_15.png
+  artifactKey: Guid(e28999148781d1940947b5ce0e785ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Textures/Fruit cocktail slot game kit/animations/pinaple/pinaple-animation_15.png using Guid(e28999148781d1940947b5ce0e785ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8554b095bc5e33ba2c7b256279b0e4e') in 0.0256199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.890093 seconds.
+  path: Assets/Prefabs/Pear.prefab
+  artifactKey: Guid(d9850962539df534080ce718f0a66634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Pear.prefab using Guid(d9850962539df534080ce718f0a66634) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3391750219a534d04f7c5ed22565d8de') in 0.0030425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.975 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.994 seconds
+Domain Reload Profiling: 1972ms
+	BeginReloadAssembly (349ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (87ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (531ms)
+		LoadAssemblies (516ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (212ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (186ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (995ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (673ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (85ms)
+			ProcessInitializeOnLoadAttributes (471ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5818 unused Assets / (4.8 MB). Loaded Objects now: 6610.
+Memory consumption went from 179.5 MB to 174.7 MB.
+Total: 10.288000 ms (FindLiveObjects: 1.058800 ms CreateObjectMapping: 1.198900 ms MarkObjects: 4.340900 ms  DeleteObjects: 3.688600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.858 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.908 seconds
+Domain Reload Profiling: 1768ms
+	BeginReloadAssembly (287ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (484ms)
+		LoadAssemblies (428ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (200ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (178ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (908ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (598ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (415ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Refreshing native plugins compatible for Editor in 1.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5818 unused Assets / (4.9 MB). Loaded Objects now: 6610.
+Memory consumption went from 181.2 MB to 176.3 MB.
+Total: 21.291800 ms (FindLiveObjects: 1.258000 ms CreateObjectMapping: 2.682800 ms MarkObjects: 10.584900 ms  DeleteObjects: 6.758600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5810 unused Assets / (4.9 MB). Loaded Objects now: 6610.
+Memory consumption went from 181.4 MB to 176.5 MB.
+Total: 9.713000 ms (FindLiveObjects: 0.793000 ms CreateObjectMapping: 1.290400 ms MarkObjects: 4.992900 ms  DeleteObjects: 2.635500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.376 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.755 seconds
+Domain Reload Profiling: 2134ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (85ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (1009ms)
+		LoadAssemblies (692ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (439ms)
+			TypeCache.Refresh (77ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (291ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (755ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (504ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5818 unused Assets / (4.5 MB). Loaded Objects now: 6610.
+Memory consumption went from 183.1 MB to 178.6 MB.
+Total: 9.439600 ms (FindLiveObjects: 0.750700 ms CreateObjectMapping: 1.435600 ms MarkObjects: 4.186200 ms  DeleteObjects: 3.066100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.79 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5810 unused Assets / (5.3 MB). Loaded Objects now: 6610.
+Memory consumption went from 183.3 MB to 177.9 MB.
+Total: 8.930900 ms (FindLiveObjects: 0.719600 ms CreateObjectMapping: 0.972400 ms MarkObjects: 3.881500 ms  DeleteObjects: 3.356700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.843 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 1572ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (522ms)
+		LoadAssemblies (398ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (243ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (199ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (727ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (481ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (54ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 0.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5818 unused Assets / (4.8 MB). Loaded Objects now: 6610.
+Memory consumption went from 185.1 MB to 180.3 MB.
+Total: 10.964700 ms (FindLiveObjects: 0.863800 ms CreateObjectMapping: 1.076200 ms MarkObjects: 4.866100 ms  DeleteObjects: 4.157700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image A:\UnityProjects\SlotProjects\SlotProject-1\SlotProject-1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.798 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.915 seconds
+Domain Reload Profiling: 1715ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (480ms)
+		LoadAssemblies (368ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (199ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (916ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (590ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5818 unused Assets / (4.6 MB). Loaded Objects now: 6610.
+Memory consumption went from 187.0 MB to 182.4 MB.
+Total: 17.962100 ms (FindLiveObjects: 1.002000 ms CreateObjectMapping: 2.244400 ms MarkObjects: 8.050300 ms  DeleteObjects: 6.663100 ms)
+
+Prepare: number of updated asset objects reloaded= 0

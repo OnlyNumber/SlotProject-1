@@ -82,9 +82,14 @@ public class PlayerData
 
     }
 
+    public int VolumeMusic;
+
+    public int VolumeClip;
 
     public PlayerData()
     {
+        VolumeMusic = 1;
+        VolumeClip = 1;
         Coins = 200;
     }
 

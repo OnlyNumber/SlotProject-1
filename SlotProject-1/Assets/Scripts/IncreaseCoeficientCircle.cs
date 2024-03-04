@@ -108,8 +108,6 @@ public class IncreaseCoeficientCircle : MonoBehaviour
 
         OnUpdate -= Adding;
 
-        //OnUpdate = new System.Action();
-
     }
 
     public void GamePhone()
