@@ -8,6 +8,8 @@ public class DataControl : MonoBehaviour
     public PlayerData CurrentPlayerData;
     public System.Action OnDataLoaded;
 
+    public System.Action OnNotEnoughCoins;
+
     public static DataControl Instance;
 
     private void Awake()
@@ -46,6 +48,10 @@ public class DataControl : MonoBehaviour
 
             CurrentPlayerData.Coins += changeAmount;
             return true;
+        }
+        else
+        {
+            OnNotEnoughCoins?.Invoke();
         }
 
         return false;

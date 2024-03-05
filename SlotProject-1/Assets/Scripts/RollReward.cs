@@ -48,12 +48,12 @@ public class RollReward : MonoBehaviour
 
     public void StartRoll()
     {
-        if (Bet == 0 || Bet > DataControl.Instance.CurrentPlayerData.Coins) 
+        if (Bet == 0 || !DataControl.Instance.TryChangeCoins(-Bet)) 
         {
             return;
         }
 
-        DataControl.Instance.TryChangeCoins(-Bet);
+        //DataControl.Instance.TryChangeCoins(-Bet);
 
 
 
@@ -151,7 +151,7 @@ public class RollReward : MonoBehaviour
 
     private IEnumerator Delay()
     {
-        yield return new WaitForSeconds(0.2f);
+        yield return new WaitForSeconds(0);
         coeficientCircle.Initialize();
 
     }
@@ -172,6 +172,8 @@ public class RollReward : MonoBehaviour
 
         int currentCheckIndex;
         int currentAmountSimmilar = 0;
+        maxAmount = 0;
+        maxCheckIndex = 0;
 
 
         foreach (var item in _rollControls)
@@ -179,6 +181,7 @@ public class RollReward : MonoBehaviour
             currentCheckIndex = item.IndexOfStoppedObject;
             currentAmountSimmilar = 0;
 
+            Debug.Log("Index: " + currentCheckIndex);
 
             foreach (var checkItem in _rollControls)
             {
