@@ -92,6 +92,10 @@ public class PlayerData
 
     public int VolumeClip;
 
+    public int CurrentBackgroundSkin;
+
+    public List<bool> ActivatedBackgroundSkinList = new List<bool>(); 
+
     public PlayerData()
     {
         VolumeMusic = 1;
