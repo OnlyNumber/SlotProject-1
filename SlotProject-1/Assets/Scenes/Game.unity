@@ -887,7 +887,7 @@ PrefabInstance:
     - target: {fileID: 5353170503838197572, guid: 7af5c25132108274885b81831c9b4727, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a351a0b27e67d654a83bc3d461c3d087, type: 3}
+      objectReference: {fileID: 21300000, guid: 7ee68eaa24e46234f9aea5e8815f8f29, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1362,7 +1362,7 @@ PrefabInstance:
     - target: {fileID: 5353170503838197572, guid: 7af5c25132108274885b81831c9b4727, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: e35de283f6d110b4bb164d04f6547746, type: 3}
+      objectReference: {fileID: 21300000, guid: a2a79110b304d304abdf054b3599a02b, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5202,7 +5202,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1107661046
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6365,9 +6365,9 @@ MonoBehaviour:
   _failPanel: {fileID: 0}
   _successPanel: {fileID: 0}
   _backgroundList:
-  - {fileID: 21300000, guid: a2a79110b304d304abdf054b3599a02b, type: 3}
   - {fileID: 21300000, guid: e35de283f6d110b4bb164d04f6547746, type: 3}
-  - {fileID: 21300000, guid: a351a0b27e67d654a83bc3d461c3d087, type: 3}
+  - {fileID: 21300000, guid: a2a79110b304d304abdf054b3599a02b, type: 3}
+  - {fileID: 21300000, guid: 7ee68eaa24e46234f9aea5e8815f8f29, type: 3}
   _background: {fileID: 542840074}
 --- !u!1 &1572691968
 GameObject:
@@ -8485,7 +8485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1966392801
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8529,7 +8529,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9438,7 +9438,7 @@ PrefabInstance:
     - target: {fileID: 5353170503838197572, guid: 7af5c25132108274885b81831c9b4727, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: a2a79110b304d304abdf054b3599a02b, type: 3}
+      objectReference: {fileID: 21300000, guid: e35de283f6d110b4bb164d04f6547746, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
