@@ -11,11 +11,11 @@ public class SkinManager : MonoBehaviour
     //[SerializeField]
     //private SkinType _skinType;
 
-    [SerializeField]
+    /*[SerializeField]
     private ActivePanel _failPanel;
 
     [SerializeField]
-    private ActivePanel _successPanel;
+    private ActivePanel _successPanel;*/
 
 
     [SerializeField]
@@ -68,6 +68,11 @@ public class SkinManager : MonoBehaviour
             }
 
 
+        }
+
+        if(DataControl.Instance.CurrentPlayerData.CurrentBackgroundSkin >= DataControl.Instance.CurrentPlayerData.ActivatedBackgroundSkinList.Count)
+        {
+            DataControl.Instance.CurrentPlayerData.CurrentBackgroundSkin = 0;
         }
 
         _skinList[DataControl.Instance.CurrentPlayerData.CurrentBackgroundSkin].Equip(true);
