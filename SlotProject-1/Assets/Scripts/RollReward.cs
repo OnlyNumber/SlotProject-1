@@ -35,6 +35,8 @@ public class RollReward : MonoBehaviour
     [SerializeField]
     private float _startXPostion;
 
+    //public System.Action OnStop;
+
     private void Start()
     {
         float x = -_startXPostion;
@@ -44,6 +46,9 @@ public class RollReward : MonoBehaviour
             item.Initialize(x);
             x += _startXPostion;
         }
+
+        _rollControls[_rollControls.Count - 1].OnStop += () => StartCoroutine(DelayReward());
+        
     }
 
     public void StartRoll()
@@ -59,6 +64,7 @@ public class RollReward : MonoBehaviour
 
         StartCoroutine(DelayStart());
         StartCoroutine(DelayBeforeStop());
+    
     }
 
     private IEnumerator DelayStart()
@@ -87,9 +93,20 @@ public class RollReward : MonoBehaviour
 
         }
 
+        //yield return new WaitForSeconds(3);
+
+        //GetReward();
+
+    }
+
+    private IEnumerator DelayReward()
+    {
+
+        yield return new WaitForSeconds(1);
         GetReward();
 
     }
+
 
     public void ChangeBet(float changeAmount)
     {

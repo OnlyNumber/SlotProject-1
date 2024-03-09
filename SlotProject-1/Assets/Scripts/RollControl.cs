@@ -22,6 +22,9 @@ public class RollControl : MonoBehaviour
 
     public int IndexOfStoppedObject;
 
+    public System.Action OnStop;
+
+
     public void Initialize(float xCoordinate)
     {
 
@@ -48,9 +51,12 @@ public class RollControl : MonoBehaviour
 
         //Vector3 pos = _rollingObjects[0].anchoredPosition;
 
-        if (IsStopping && (-_rollingObjects[0].GetComponent<RollObject>().GetYOfObject(IndexOfStoppedObject) >= _rollingObjects[0].anchoredPosition.y -30 && -_rollingObjects[0].GetComponent<RollObject>().GetYOfObject(IndexOfStoppedObject) <= _rollingObjects[0].anchoredPosition.y + 30) )
+        if (IsStopping && (-_rollingObjects[0].GetComponent<RollObject>().GetYOfObject(IndexOfStoppedObject) >= _rollingObjects[0].anchoredPosition.y -10 
+            && -_rollingObjects[0].GetComponent<RollObject>().GetYOfObject(IndexOfStoppedObject) <= _rollingObjects[0].anchoredPosition.y + 10) )
         {
             _isRoll = false;
+            OnStop?.Invoke();
+            return;
         }
 
 
