@@ -62,6 +62,27 @@ public class DataControl : MonoBehaviour
         return CurrentPlayerData.Coins;
     }
 
+    public void SetDate(DateTime updateDate)
+    {
+        CurrentPlayerData.LastDate = updateDate.ToString();
+    }
+
+    public DateTime GetDate()
+    {
+        DateTime transfer;
+        try
+        {
+            transfer = DateTime.Parse(CurrentPlayerData.LastDate);
+        }
+        catch
+        {
+            SetDate(DateTime.MinValue);
+            transfer = DateTime.Parse(CurrentPlayerData.LastDate);
+        }
+
+        return transfer;
+    }
+
 }
 
 [Serializable]
@@ -94,7 +115,11 @@ public class PlayerData
 
     public int CurrentBackgroundSkin;
 
+    public string LastDate;
+
     public List<bool> ActivatedBackgroundSkinList = new List<bool>(); 
+
+
 
     public PlayerData()
     {
